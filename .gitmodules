@@ -1,0 +1,7 @@
+[submodule "extern/MTG-Arena-Tool"]
+	path = extern/MTG-Arena-Tool
+	url = git@github.com:Manuel-777/MTG-Arena-Tool.git
+[submodule "extern/gpad"]
+	path = extern/gpad
+	url = git@github.com:MrHacky/gpad.git
+	branch = react-hooks
