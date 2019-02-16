@@ -2,7 +2,7 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 
 import { useState, useEffect, useReducer } from "react";
-import { ArenaLogDecoder } from "./arena-log-tracker/decoder";
+import { ArenaLogDecoder, CardDatabase } from "./arena-log-tracker/decoder";
 
 let decoder = new ArenaLogDecoder();
 let curpos = 0;
@@ -19,6 +19,28 @@ function BlobToString(blob: Blob): Promise<string> {
 		reader.readAsText(blob);	
 	});
 }
+
+let sets = [];
+const dbStats = (() => {
+	let ret = {};
+	for (let id in CardDatabase) {
+		if (isNaN(parseInt(id)))
+			continue;
+		let card = CardDatabase[id];
+		if (card.name.slice(0, 6) == "Ghalta")
+			console.log(card);
+		let set = card.set;
+		let rarity = card.rarity;
+		if (!set)
+			console.log(card);
+		if (!ret[set]) {
+			ret[set] = { common: 0, uncommon: 0, rare: 0, mythic: 0, land: 0, token: 0 }
+			sets.push(set);
+		}
+		ret[set][rarity]++;
+	}
+	return ret;
+})();
 
 /*
 async function decodeLoop({ file, CheckAbort, handleContent }) {
@@ -110,6 +132,7 @@ export function LogWatcher(props: { onLogEntry }) {
 	
 	useEffect(() => {
 		if (!state.decoder || state.curpos > size) {
+			console.log('new decoder');
 			setState(prev => ({ ...prev, curpos: 0, decoder: new ArenaLogDecoder() }));
 		} else if (state.curpos < size) {
 			setState(prev => {
@@ -184,6 +207,21 @@ function mtgaReducer(state: mtgaCollectionState, action) {
 	return state;
 }
 
+function CardsToStats(cards) {
+	let stats = {};
+	for (let card in cards) {
+		let info = CardDatabase[card];
+		//console.log(cards[card] + " : " + info.name + ' (' + card + ')');
+		let set = info.set;
+		let rar = info.rarity;
+		if (!stats[set])
+			stats[set] = { common: [0,0], uncommon: [0,0], rare: [0,0], mythic: [0,0] };
+		stats[set][rar][0] += 1;
+		stats[set][rar][1] += cards[card];
+	}
+	return stats;
+}
+
 function ShowGlobals(props: { state: mtgaCollectionState }) {
 	let globalKeys = [];
 	for (let key in props.state)
@@ -194,7 +232,7 @@ function ShowGlobals(props: { state: mtgaCollectionState }) {
 	for (let card in props.state.cards)
 		totalCards += props.state.cards[card];
 
-
+	let cardStats = CardsToStats(props.state.cards);
 	return <div>
 		{globalKeys.map(x => (<div>
 			{x} = {props.state[x]}
@@ -202,6 +240,8 @@ function ShowGlobals(props: { state: mtgaCollectionState }) {
 		Cards: {totalCards}
 		<br/>
 		{JSON.stringify(props.state.cards)}
+		<br/>
+		{(sets.map(x => <div>{x + ": " + JSON.stringify(dbStats[x]) + " | " + JSON.stringify(cardStats[x])}</div>))}
 	</div>;
 }
 
