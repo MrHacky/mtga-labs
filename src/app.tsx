@@ -97,8 +97,6 @@ function ShowGlobals(props: { state: mtgaCollectionState }) {
 		</div>))}
 		Cards: {totalCards}
 		<br/>
-		{JSON.stringify(props.state.cards)}
-		<br/>
 		{(sets.map(x => <div>{x + ": " + JSON.stringify(dbStats[x]) + " | " + JSON.stringify(cardStats[x])}</div>))}
 	</div>;
 }
