@@ -19,7 +19,7 @@ function useMonitorFileSize({ file }: { file: File }) {
 				setSize(file.size);
 		}, 1000);				
 		return () => window.clearInterval(id);
-	}, [ file ]);
+	}, [ file, size ]);
 	return size;
 }
 
