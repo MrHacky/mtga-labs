@@ -3,6 +3,8 @@ import * as React from "react";
 import { mtgaCollectionState } from "./MtgaCollection"
 import { CardDatabase } from "./arena-log-tracker/decoder";
 
+let rarities = [ "common", "uncommon", "rare", "mythic" ];
+
 let sets = [];
 const dbStats = (() => {
 	let ret = {};
@@ -40,6 +42,15 @@ function CardsToStats(cards) {
 	return stats;
 }
 
+function DisplaySetLine(props: { name: string, collection, setinfo }) {
+    //console.log(props.setinfo);
+    return <>
+        <tr><td>{props.name}</td>{rarities.map(x => <td>{(props.collection[x] || [])[0]}/{props.setinfo[x]}</td>)}</tr>
+        <tr><td>{props.name} (x4)</td>{rarities.map(x => <td>{(props.collection[x] || [])[1]}/{4 * props.setinfo[x]}</td>)}</tr>
+    </>;
+    //return <div>{props.name + ": " + JSON.stringify(props.setinfo) + " | " + JSON.stringify(props.collection)}</div>;name
+}
+
 export function MtgaShowCollection(props: { collection: mtgaCollectionState }) {
 	let globalKeys = [];
 	for (let key in props.collection)
@@ -57,6 +68,9 @@ export function MtgaShowCollection(props: { collection: mtgaCollectionState }) {
 		</div>))}
 		Cards: {totalCards}
 		<br/>
-		{(sets.map(x => <div>{x + ": " + JSON.stringify(dbStats[x]) + " | " + JSON.stringify(cardStats[x])}</div>))}
-	</div>;
+        <table>
+            <tr><th>Name</th>{rarities.map(x => <th>{x}</th>)}</tr>
+            {(sets.map(x => <DisplaySetLine name={x} collection={cardStats[x] || {}} setinfo={dbStats[x]}/>))}
+        </table>
+    </div>;
 }
