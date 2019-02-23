@@ -12,8 +12,6 @@ const dbStats = (() => {
 		if (isNaN(parseInt(id)))
 			continue;
 		let card = CardDatabase[id];
-		if (card.name.slice(0, 6) == "Ghalta")
-			console.log(card);
 		let set = card.set;
 		let rarity = card.rarity;
 		if (!set)

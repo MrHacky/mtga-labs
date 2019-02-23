@@ -15,8 +15,12 @@ function useMonitorFileSize({ file }: { file: File }) {
 	const [ size, setSize ] = useState(0);
 	useEffect(() => {
 		const id = window.setInterval(() => {
+			let newsize = file ? file.size : 0;
+			//newsize = Math.min(newsize, size + Math.round(10000 * Math.random()));
+			if (file && newsize != size)
+				console.log("size: " + size + " -> " + newsize);
 			if (file)
-				setSize(file.size);
+				setSize(newsize);
 		}, 1000);				
 		return () => window.clearInterval(id);
 	}, [ file, size ]);
@@ -65,10 +69,11 @@ export function MtgaLogWatcher(props: { onLogEntry }) {
 				return {
 					...prev,
 					reader: BlobToString(chunk).then(result => {
+						console.log('append: ' + result.length);
 						// abort?
 						prev.decoder.append(result, props.onLogEntry);
 						setState(prev => ({ ...prev, reader: null }));					
-					}),
+					}).catch((e) => console.log('read error' + e)),
 					chunks: rest,
 				};
 			})
