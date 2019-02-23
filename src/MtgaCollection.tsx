@@ -6,7 +6,7 @@ export class mtgaCollectionState {
 	wcRare = 0;
 	wcMythic = 0;
 	vaultProgress = 0;
-	cards = {};
+	cards: { [id: number]: number } = {};
 	//'gold, 'gems', 'wcCommon', 'wcUncommon', 'wcRare', 'wcMythic', 'vaultProgress'
 }
 
