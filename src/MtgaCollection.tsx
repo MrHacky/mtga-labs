@@ -13,20 +13,20 @@ export class mtgaCollectionState {
 export function useMtgaCollectionReducer(state: mtgaCollectionState, action) {
 	const o = action;
 	if (o.label == "PlayerInventory.GetPlayerCardsV3" && o.arrow == "<==") {
-        console.log(o.label);
+		console.log(o.label);
 		let json = o.json();
 		for (let card in json)
 			state = { ...state, cards: { ...state.cards, [+card]: json[card]}}
 	}
 	if (o.label == "PlayerInventory.GetPlayerInventory" && o.arrow == "<==") {
-        console.log(o.label);
+		console.log(o.label);
 		let json = o.json();
 		for (let key in state)
 			if (key != 'cards' && json[key] !== undefined)
 				state = { ...state, [key]: json[key] };
 	}
 	if (o.label == "Inventory.Updated") {
-        console.log(o.label);
+		console.log(o.label);
 		let json = o.json();
 		for (let key in state)
 			if (key != 'cards' && json[key] !== undefined)
