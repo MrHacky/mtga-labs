@@ -1,7 +1,7 @@
 import * as React from "react";
 import { mtgaCollectionState } from "../MtgaCollection";
-import styled from "styled-components";
-
+import styled from "../themed-components";
+import { CardRaritySummary } from "./CardRaritySummary";
 interface TPlayerInfoProps {
     collection: mtgaCollectionState
 }
@@ -17,11 +17,6 @@ const Currencies = styled.div`
     grid-template-columns: 1fr 1fr;
 `;
 
-const CardRarities = styled.div`
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-`;
-
 export function PlayerInfo({ collection }: TPlayerInfoProps) {    
     const { gold, gems, wcCommon, wcUncommon, wcRare, wcMythic } = collection;
 
@@ -31,12 +26,12 @@ export function PlayerInfo({ collection }: TPlayerInfoProps) {
                 <div>Gold: {gold}</div>
                 <div>Gems: {gems}</div>
             </Currencies>
-            <CardRarities>
-                <div>Common: {wcCommon}</div>
-                <div>Uncommon: {wcUncommon}</div>
-                <div>Rare: {wcRare}</div>
-                <div>Mythic: {wcMythic}</div>
-            </CardRarities>
+            <CardRaritySummary
+                common={wcCommon} 
+                uncommon={wcUncommon}
+                rare={wcRare}
+                mythic={wcMythic}
+            />
         </PlayerInfoWrapper>
     );
 }
