@@ -34,6 +34,12 @@ export function useMtgaCollectionReducer(state: mtgaCollectionState, action) {
 		for (let card of json.delta.cardsAdded)
 			state = { ...state, cards: { ...state.cards, [+card]: (state.cards[card] || 0) + 1} };
 	}
-	//console.log(state);
+	if (o.label == "mtga-labs-Inventory") {
+		console.log(o.label);
+		let json = o.json;
+		for (let key in state)
+			if (json[key] !== undefined)
+				state = { ...state, [key]: json[key] };
+	}
 	return state;
 }
