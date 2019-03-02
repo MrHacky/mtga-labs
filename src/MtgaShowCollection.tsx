@@ -47,21 +47,6 @@ function CardsToStats(cards) {
 	return stats;
 }
 
-function DisplaySetCell(props: { collection, setinfo }) {
-	let current = props.collection[1]; // [1] is count including duplicates
-	let max     = 4 * props.setinfo;   // so do '4 *'
-	return <td title={'test-hint'}>{current}/{max}</td>
-}
-
-function DisplaySetLine(props: { name: string, collection, setinfo }) {
-	//console.log(props.setinfo);
-	//<tr><td>{props.name}</td>{rarities.map(x => <td>{(props.collection[x] || [])[0]}/{props.setinfo[x]}</td>)}</tr>
-	return <>
-		<tr><td>{props.name}</td>{rarities.map(x => <DisplaySetCell key={x} collection={props.collection[x] || [0, 0]} setinfo={props.setinfo[x]}/>)}</tr>
-	</>;
-	//return <div>{props.name + ": " + JSON.stringify(props.setinfo) + " | " + JSON.stringify(props.collection)}</div>;name
-}
-
 function flattenObjects(objlist) {
 	return Object.assign({}, ...objlist);
 }
