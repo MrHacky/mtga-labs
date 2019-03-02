@@ -109,8 +109,6 @@ function MissingStatsToData(name, missing) {
 				let set = info.set;
 				if (!sets[set])
 					sets[set] = { total: 0, common: 0, uncommon: 0, rare: 0, mythic: 0 };
-				if (!single)
-					console.log(info);
 				let rarity = info.rarity;
 				let diff = 1;
 				sets[set]['total'] += diff;
