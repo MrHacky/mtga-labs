@@ -121,7 +121,7 @@ function MissingStatsToData(name, missing) {
 				if (!single)
 					console.log(info);
 				let rarity = info.rarity;
-				let diff = miss.count;
+				let diff = 1;
 				sets[set]['total'] += diff;
 				sets[set][rarity]  += diff;
 				if (!lowestrarity || rarities.indexOf(lowestrarity) > rarities.indexOf(rarity))
@@ -130,7 +130,7 @@ function MissingStatsToData(name, missing) {
 			let diff = miss.count;
 			total['total']      += diff;
 			total[lowestrarity] += diff;
-	}
+		}
 
 		return {
 			name: name + (single ? '' : '+'),
