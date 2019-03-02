@@ -18,13 +18,14 @@ const Currencies = styled.div`
 `;
 
 export function PlayerInfo({ collection }: TPlayerInfoProps) {    
-    const { gold, gems, wcCommon, wcUncommon, wcRare, wcMythic } = collection;
+    const { gold, gems, wcCommon, wcUncommon, wcRare, wcMythic, vaultProgress } = collection;
 
     return (
         <PlayerInfoWrapper>
             <Currencies>
                 <div>Gold: {gold}</div>
                 <div>Gems: {gems}</div>
+                <div>Vault: {vaultProgress}%</div> {/*Not a real 'Currency', should it be here?*/}
             </Currencies>
             <CardRaritySummary
                 common={wcCommon} 
