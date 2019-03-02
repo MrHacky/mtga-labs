@@ -85,9 +85,8 @@ export function MtgaLogWatcher(props: { onLogEntry }) {
 	});
 	
 	return <div>
-		Browse to file: %LocalAppData%Low\Wizards Of The Coast\MTGA\output_log.txt
-		<br/>
 		<input type="file" onChange={(e) => setFile(e.target.files[0])}/>
+		(Browse to file: %LocalAppData%Low\Wizards Of The Coast\MTGA\output_log.txt)
 	</div>;
 }
 

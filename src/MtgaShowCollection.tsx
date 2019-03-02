@@ -7,6 +7,11 @@ import * as DeckLists from "./DeckLists";
 import ReactTable from 'react-table';
 import 'react-table/react-table.css';
 import { PlayerInfo } from "./components/PlayerInfo";
+import styled from "./themed-components";
+
+const CollectionWrapper = styled.div`
+	grid-area: collection;
+`;
 
 let rarities = [ "common", "uncommon", "rare", "mythic" ];
 
@@ -140,7 +145,7 @@ export function MtgaShowCollection(props: { collection: mtgaCollectionState }) {
 	];
 	let allsets = Object.keys(flattenObjects(missingData.map(x => x.sets)));
 
-	return <div>
+	return <CollectionWrapper>
 		Cards: {totalCards}
 		<PlayerInfo collection={props.collection} />
 		<br/>
@@ -179,5 +184,5 @@ export function MtgaShowCollection(props: { collection: mtgaCollectionState }) {
 			showPagination={false}
 			minRows="0"
 		/>
-	</div>;
+	</CollectionWrapper>;
 }
