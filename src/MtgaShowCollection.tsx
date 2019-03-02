@@ -6,6 +6,7 @@ import { parseDeckList } from "./MtgaDeckListParser";
 import * as DeckLists from "./DeckLists";
 import ReactTable from 'react-table';
 import 'react-table/react-table.css';
+import { PlayerInfo } from "./components/PlayerInfo";
 
 let rarities = [ "common", "uncommon", "rare", "mythic" ];
 
@@ -126,11 +127,6 @@ function MissingStatsToData(name, missing) {
 }
 
 export function MtgaShowCollection(props: { collection: mtgaCollectionState }) {
-	let globalKeys = [];
-	for (let key in props.collection)
-		if (key != 'cards')
-			globalKeys.push(key);
-	
 	let totalCards = 0;
 	for (let card in props.collection.cards)
 		totalCards += props.collection.cards[card];
@@ -145,10 +141,8 @@ export function MtgaShowCollection(props: { collection: mtgaCollectionState }) {
 	let allsets = Object.keys(flattenObjects(missingData.map(x => x.sets)));
 
 	return <div>
-		{globalKeys.map(x => (<div key={x}>
-			{x} = {props.collection[x]}
-		</div>))}
 		Cards: {totalCards}
+		<PlayerInfo collection={props.collection} />
 		<br/>
 		<ReactTable
 			data={missingData}
