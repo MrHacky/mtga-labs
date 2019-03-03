@@ -3,27 +3,44 @@ import { useState, useEffect, useReducer } from "react";
 
 import { ArenaLogDecoder } from "./arena-log-tracker/decoder";
 
-function BlobToString(blob: Blob): Promise<string> {
+interface BlobSpec {
+	source: File;
+	start: number;
+	end: number;
+}
+
+function BlobToString(blob: BlobSpec): Promise<string> {
 	return new Promise<string>(resolve => {
 		var reader = new FileReader();
-		reader.onload = () => resolve(reader.result as string); // we use readAsText so .result is a string
-		reader.readAsText(blob);	
+
+		var timeout = window.setTimeout(function() {
+			console.log('timeout')
+			reader.onload = null;
+			resolve(BlobToString(blob));
+		}, 5000);
+
+		reader.onload = () => {
+			window.clearTimeout(timeout);
+			resolve(reader.result as string); // we use readAsText so .result is a string
+		};
+
+		reader.readAsText(blob.source.slice(blob.start, blob.end));
 	});
 }
 
-function useMonitorFileSize({ file }: { file: File }) {
+function useMonitorFileSize({ file }: { file?: File }) {
 	const [ size, setSize ] = useState(0);
 	useEffect(() => {
 		const id = window.setInterval(() => {
 			let newsize = file ? file.size : 0;
 			//newsize = Math.min(newsize, size + Math.round(10000 * Math.random()));
-			if (file && newsize != size)
-				console.log("size: " + size + " -> " + newsize);
+			if (file)
+				console.log("[" + id + "] size: " + newsize);
 			if (file)
 				setSize(newsize);
 		}, 1000);				
 		return () => window.clearInterval(id);
-	}, [ file, size ]);
+	}, [ file, setSize ]);
 	return size;
 }
 
@@ -45,7 +62,7 @@ function useCollectFileChunks({ file, onChunk }) {
 export function MtgaLogWatcher(props: { onLogEntry }) {
 	const [ file, setFile ] = useState<File>(null);
 	const size: number = useMonitorFileSize({ file });
-	const [ state, setState ] = useState({ curpos: 0, decoder: null, reader: null, chunks: [] });
+	const [ state, setState ] = useState({ curpos: 0, decoder: null, reading: false, appended: false, chunks: [] });
 
 	const [ chunks, setChunks ] = useState([]);
 	
@@ -55,7 +72,7 @@ export function MtgaLogWatcher(props: { onLogEntry }) {
 			setState(prev => ({ ...prev, curpos: 0, decoder: new ArenaLogDecoder() }));
 		} else if (state.curpos < size) {
 			setState(prev => {
-				const chunk = file.slice(prev.curpos, size);
+				const chunk: BlobSpec = { source: file, start: prev.curpos, end: size };
 				return {
 					...prev,
 					chunks: [ ...prev.chunks, chunk],
@@ -63,25 +80,34 @@ export function MtgaLogWatcher(props: { onLogEntry }) {
 				};
 			});
 		}
-		if (!state.reader && state.chunks.length > 0) {
+	});
+
+	useEffect(() => {
+		if (!state.reading && !state.appended && state.chunks.length > 0) {
 			setState(prev => {
+				if (prev.reading || prev.appended || prev.chunks.length == 0)
+					return prev;
 				const [ chunk, ...rest ] = prev.chunks;
+
+				BlobToString(chunk).then(result => {
+					console.log('append: ' + result.length);
+					// abort?
+					prev.decoder.append(result, props.onLogEntry);
+					setState(prev => ({ ...prev, appended: true }));
+				}).catch((e) => console.log('read error' + e));
+
 				return {
 					...prev,
-					reader: BlobToString(chunk).then(result => {
-						console.log('append: ' + result.length);
-						// abort?
-						prev.decoder.append(result, props.onLogEntry);
-						setState(prev => ({ ...prev, reader: null }));					
-					}).catch((e) => console.log('read error' + e)),
+					reading: true,
 					chunks: rest,
 				};
 			})
 		}
-		return () => {
-			//if (state.reader)
-				//state.reader.cancel('x');
-		};
+	});
+
+	useEffect(() => {
+		if (state.reading && state.appended)
+			setState(prev => ({ ...prev, reading: false, appended: false }))
 	});
 	
 	return <div>
