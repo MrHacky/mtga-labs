@@ -13,7 +13,7 @@ interface CardData {
     dfc: string; // ?
     dfcId: number; // ?
     frame: number[]; // ?
-    images: { small: string, normal: string, large: string, art_crop: string };
+    images: { small: string, normal: string, large: string, art_crop: string }; // use these strings in url: `https://img.scryfall.com/cards{str}`
     name: string;
     rank: number;
     rarity: string;
