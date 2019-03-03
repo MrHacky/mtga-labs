@@ -21,7 +21,7 @@ const CollectionManager = styled.div`
 
 const SaveInfo = styled.div`
 	display: grid;
-	grid-template-columns: 80px 100px;
+	grid-template-columns: 90px;
 	grid-gap: ${p => p.theme.margins.small};
 	border-right: 1px solid grey;
 `;
@@ -36,7 +36,8 @@ const Application = styled.div`
 
 export function App(props: {  }) {
 	const [ collection, collectionDispatch ] = useReducer(useMtgaCollectionReducer, new mtgaCollectionState());
-	const [ state, saveCollectionState ] = usePersistCollectionState({
+	const [ state ] = usePersistCollectionState({
+		collectionState: collection,
 		setCollectionState: json => collectionDispatch({ label: "mtga-labs-Inventory", json }),
 	});
 
@@ -44,7 +45,6 @@ export function App(props: {  }) {
 		<Application>
 			<CollectionManager>
 				<SaveInfo>
-					<button onClick={() => saveCollectionState(collection)}>Save</button>
 					<span>{state}</span>
 				</SaveInfo>
 				<MtgaLogWatcher onLogEntry={collectionDispatch}></MtgaLogWatcher>
