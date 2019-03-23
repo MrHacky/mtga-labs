@@ -41,37 +41,42 @@ function MissingStatsToData(name, missing) {
 	// Sort by set, sort by set + rarity, totals, totals by rarity
 	// singleset+multiset combined, singleset+multiset separate line?
 	// count as 1 or not
-
-	return [true, false].map(single  => {
-		let total = { total: 0, common: 0, uncommon: 0, rare: 0, mythic: 0 };
-		let sets = {};
-		for (let miss of missing) {
-			if ((miss.ids.length == 1) != single)
-				continue;
-			let lowestrarity = null;
-			for (let cardid of miss.ids) {
-				let info = CardDatabase[cardid];
-				let set = info.set;
-				if (!sets[set])
-					sets[set] = { total: 0, common: 0, uncommon: 0, rare: 0, mythic: 0 };
-				let rarity = info.rarity;
-				let diff = 1;
-				sets[set]['total'] += diff;
-				sets[set][rarity]  += diff;
-				if (!lowestrarity || rarities.indexOf(lowestrarity) > rarities.indexOf(rarity))
-					lowestrarity = rarity;
+	try {
+		return [true, false].map(single  => {
+			let total = { total: 0, common: 0, uncommon: 0, rare: 0, mythic: 0 };
+			let sets = {};
+			for (let miss of missing) {
+				if ((miss.ids.length == 1) != single)
+					continue;
+				let lowestrarity = null;
+				for (let cardid of miss.ids) {
+					let info = CardDatabase[cardid];
+					let set = info.set;
+					if (!sets[set])
+						sets[set] = { total: 0, common: 0, uncommon: 0, rare: 0, mythic: 0 };
+					let rarity = info.rarity;
+					let diff = 1;
+					sets[set]['total'] += diff;
+					sets[set][rarity]  += diff;
+					if (!lowestrarity || rarities.indexOf(lowestrarity) > rarities.indexOf(rarity))
+						lowestrarity = rarity;
+				}
+				let diff = miss.count;
+				total['total']      += diff;
+				total[lowestrarity] += diff;
 			}
-			let diff = miss.count;
-			total['total']      += diff;
-			total[lowestrarity] += diff;
-		}
 
-		return {
-			name: name + (single ? '' : '+'),
-			total,
-			sets,
-		};
-	});
+			return {
+				name: name + (single ? '' : '+'),
+				total,
+				sets,
+			};
+		});
+	} catch (e) {
+		console.log("Invalid deck?");
+		console.log(e);
+		return [];
+	}
 }
 
 export function MtgaShowDecks(props: { collection: mtgaCollectionState }) {
