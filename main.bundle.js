@@ -86,10 +86,10 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./extern/MTG-Arena-Tool/shared/database.json":
-/*!****************************************************!*\
-  !*** ./extern/MTG-Arena-Tool/shared/database.json ***!
-  \****************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/extern/MTG-Arena-Tool/shared/database.json":
+/*!*********************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/extern/MTG-Arena-Tool/shared/database.json ***!
+  \*********************************************************************************************/
 /*! exports provided: 65961, 65963, 65965, 65967, 65969, 65971, 65973, 65975, 65977, 65979, 65981, 65983, 65985, 65987, 65989, 65991, 65993, 65995, 65997, 65999, 66001, 66003, 66005, 66007, 66009, 66011, 66013, 66015, 66017, 66019, 66021, 66023, 66025, 66027, 66029, 66031, 66033, 66035, 66037, 66039, 66041, 66043, 66045, 66047, 66049, 66051, 66053, 66055, 66057, 66059, 66061, 66063, 66065, 66067, 66069, 66071, 66073, 66075, 66077, 66079, 66081, 66083, 66085, 66087, 66089, 66091, 66093, 66095, 66097, 66099, 66101, 66103, 66105, 66107, 66109, 66111, 66113, 66115, 66117, 66119, 66121, 66123, 66125, 66127, 66129, 66131, 66133, 66135, 66137, 66139, 66141, 66143, 66145, 66147, 66149, 66151, 66153, 66155, 66157, 66159, 66161, 66163, 66165, 66167, 66169, 66171, 66173, 66175, 66177, 66179, 66181, 66183, 66185, 66187, 66189, 66191, 66193, 66195, 66197, 66199, 66201, 66203, 66205, 66207, 66209, 66211, 66213, 66215, 66217, 66219, 66221, 66223, 66225, 66227, 66229, 66231, 66233, 66235, 66237, 66239, 66241, 66243, 66245, 66247, 66249, 66251, 66253, 66255, 66257, 66259, 66261, 66263, 66265, 66267, 66269, 66271, 66273, 66275, 66277, 66279, 66281, 66283, 66285, 66287, 66289, 66291, 66293, 66295, 66297, 66299, 66301, 66303, 66305, 66307, 66309, 66311, 66313, 66315, 66317, 66319, 66321, 66323, 66325, 66327, 66329, 66331, 66333, 66335, 66337, 66339, 66341, 66343, 66345, 66347, 66349, 66351, 66353, 66355, 66357, 66359, 66361, 66363, 66365, 66367, 66369, 66371, 66373, 66375, 66377, 66379, 66381, 66383, 66385, 66387, 66389, 66391, 66393, 66395, 66397, 66399, 66401, 66403, 66405, 66407, 66409, 66411, 66413, 66415, 66417, 66419, 66421, 66423, 66425, 66427, 66429, 66431, 66433, 66435, 66437, 66439, 66441, 66443, 66445, 66447, 66449, 66451, 66453, 66455, 66457, 66459, 66461, 66463, 66465, 66467, 66469, 66471, 66473, 66475, 66477, 66479, 66481, 66483, 66485, 66487, 66489, 66491, 66493, 66495, 66497, 66499, 66501, 66503, 66505, 66507, 66509, 66511, 66513, 66515, 66517, 66519, 66521, 66523, 66525, 66527, 66529, 66531, 66533, 66535, 66537, 66541, 66543, 66545, 66547, 66549, 66551, 66553, 66555, 66557, 66559, 66609, 66610, 66611, 66612, 66613, 66614, 66615, 66616, 66617, 66618, 66619, 66621, 66623, 66625, 66627, 66629, 66631, 66633, 66635, 66637, 66639, 66641, 66643, 66645, 66647, 66649, 66651, 66653, 66655, 66657, 66659, 66661, 66663, 66665, 66667, 66669, 66671, 66673, 66675, 66677, 66679, 66681, 66683, 66685, 66687, 66689, 66691, 66693, 66695, 66697, 66699, 66701, 66703, 66705, 66707, 66709, 66711, 66713, 66715, 66717, 66719, 66721, 66723, 66725, 66727, 66729, 66731, 66733, 66735, 66737, 66739, 66741, 66743, 66745, 66747, 66749, 66751, 66753, 66755, 66757, 66759, 66761, 66763, 66765, 66767, 66769, 66771, 66773, 66775, 66777, 66779, 66781, 66783, 66785, 66787, 66789, 66791, 66793, 66795, 66797, 66799, 66801, 66803, 66805, 66807, 66809, 66811, 66813, 66815, 66817, 66819, 66821, 66823, 66825, 66827, 66829, 66831, 66833, 66835, 66837, 66839, 66841, 66843, 66845, 66847, 66849, 66851, 66853, 66855, 66857, 66859, 66861, 66863, 66865, 66867, 66869, 66871, 66873, 66875, 66877, 66879, 66881, 66883, 66885, 66887, 66889, 66891, 66893, 66895, 66897, 66899, 66901, 66903, 66905, 66907, 66909, 66911, 66913, 66915, 66917, 66919, 66921, 66923, 66925, 66927, 66929, 66931, 66933, 66935, 66937, 66939, 66941, 66943, 66945, 66947, 66949, 66951, 66953, 66955, 66957, 66959, 66961, 66963, 66965, 66967, 66969, 66971, 66973, 66975, 66977, 66979, 66981, 66983, 66985, 66987, 66989, 66991, 66993, 66995, 66997, 66999, 67001, 67003, 67005, 67007, 67009, 67011, 67013, 67015, 67017, 67019, 67021, 67023, 67025, 67027, 67029, 67031, 67033, 67035, 67037, 67039, 67041, 67043, 67044, 67045, 67046, 67082, 67106, 67108, 67110, 67112, 67114, 67116, 67118, 67120, 67122, 67124, 67126, 67128, 67130, 67132, 67134, 67136, 67138, 67140, 67142, 67144, 67146, 67148, 67150, 67152, 67154, 67156, 67158, 67160, 67162, 67164, 67166, 67168, 67170, 67172, 67174, 67176, 67178, 67180, 67182, 67184, 67186, 67188, 67190, 67192, 67194, 67196, 67198, 67200, 67202, 67204, 67206, 67208, 67210, 67212, 67214, 67216, 67218, 67220, 67222, 67224, 67226, 67228, 67230, 67232, 67234, 67236, 67238, 67240, 67242, 67244, 67246, 67248, 67250, 67252, 67254, 67256, 67258, 67260, 67262, 67264, 67266, 67268, 67270, 67272, 67274, 67276, 67278, 67280, 67282, 67284, 67286, 67288, 67290, 67292, 67294, 67296, 67298, 67300, 67302, 67304, 67306, 67308, 67310, 67312, 67314, 67316, 67318, 67320, 67322, 67324, 67326, 67328, 67330, 67332, 67334, 67336, 67338, 67340, 67342, 67344, 67346, 67348, 67350, 67352, 67354, 67356, 67358, 67360, 67362, 67364, 67366, 67368, 67370, 67372, 67374, 67376, 67378, 67380, 67382, 67384, 67386, 67388, 67390, 67392, 67394, 67396, 67398, 67400, 67402, 67404, 67406, 67408, 67410, 67412, 67414, 67416, 67418, 67420, 67422, 67424, 67426, 67428, 67430, 67432, 67434, 67436, 67438, 67440, 67442, 67444, 67446, 67448, 67450, 67452, 67454, 67456, 67458, 67460, 67462, 67464, 67466, 67468, 67470, 67472, 67474, 67476, 67478, 67480, 67482, 67484, 67486, 67488, 67490, 67492, 67494, 67496, 67498, 67500, 67502, 67504, 67506, 67508, 67510, 67512, 67514, 67516, 67518, 67520, 67522, 67524, 67526, 67528, 67530, 67532, 67534, 67536, 67538, 67540, 67542, 67544, 67546, 67548, 67550, 67552, 67554, 67556, 67558, 67560, 67562, 67564, 67566, 67568, 67570, 67572, 67574, 67576, 67578, 67580, 67582, 67584, 67586, 67588, 67590, 67592, 67594, 67596, 67598, 67600, 67602, 67604, 67606, 67608, 67610, 67612, 67614, 67616, 67618, 67620, 67622, 67624, 67626, 67628, 67630, 67632, 67634, 67636, 67638, 67640, 67642, 67644, 67646, 67648, 67650, 67652, 67654, 67656, 67658, 67660, 67662, 67664, 67665, 67666, 67667, 67668, 67669, 67670, 67671, 67672, 67673, 67674, 67675, 67676, 67677, 67682, 67684, 67686, 67688, 67690, 67692, 67694, 67696, 67698, 67700, 67702, 67704, 67706, 67708, 67710, 67712, 67714, 67716, 67718, 67720, 67722, 67724, 67726, 67728, 67730, 67732, 67734, 67736, 67738, 67740, 67742, 67744, 67746, 67748, 67750, 67752, 67754, 67756, 67758, 67760, 67762, 67764, 67766, 67768, 67770, 67772, 67774, 67776, 67778, 67780, 67782, 67784, 67786, 67788, 67790, 67792, 67794, 67796, 67798, 67800, 67802, 67804, 67806, 67808, 67810, 67812, 67814, 67816, 67818, 67820, 67822, 67824, 67826, 67828, 67830, 67832, 67834, 67836, 67838, 67840, 67842, 67844, 67846, 67848, 67850, 67852, 67854, 67856, 67858, 67860, 67862, 67864, 67866, 67868, 67870, 67872, 67874, 67876, 67878, 67880, 67882, 67884, 67886, 67888, 67890, 67892, 67894, 67896, 67898, 67900, 67902, 67904, 67906, 67908, 67910, 67912, 67914, 67916, 67918, 67920, 67922, 67924, 67926, 67928, 67930, 67932, 67934, 67936, 67938, 67940, 67942, 67944, 67946, 67948, 67950, 67952, 67954, 67956, 67958, 67960, 67962, 67964, 67966, 67968, 67970, 67972, 67974, 67976, 67978, 67980, 67982, 67984, 67986, 67988, 67990, 67992, 67994, 67996, 67998, 68000, 68002, 68004, 68006, 68008, 68010, 68012, 68014, 68016, 68018, 68020, 68022, 68024, 68026, 68028, 68030, 68032, 68034, 68036, 68038, 68040, 68042, 68044, 68046, 68048, 68050, 68052, 68054, 68056, 68058, 68060, 68062, 68064, 68066, 68068, 68070, 68072, 68074, 68076, 68078, 68080, 68082, 68084, 68086, 68088, 68090, 68092, 68094, 68096, 68098, 68100, 68102, 68104, 68106, 68108, 68110, 68112, 68114, 68116, 68118, 68120, 68122, 68124, 68126, 68128, 68130, 68132, 68134, 68136, 68138, 68140, 68142, 68144, 68146, 68148, 68150, 68152, 68154, 68156, 68158, 68160, 68162, 68164, 68166, 68168, 68170, 68172, 68174, 68176, 68178, 68180, 68182, 68184, 68186, 68188, 68190, 68192, 68194, 68196, 68198, 68200, 68202, 68204, 68206, 68208, 68210, 68212, 68214, 68216, 68218, 68220, 68222, 68224, 68226, 68228, 68230, 68232, 68234, 68236, 68238, 68240, 68242, 68244, 68246, 68248, 68250, 68252, 68254, 68256, 68258, 68260, 68262, 68264, 68266, 68268, 68270, 68272, 68274, 68276, 68278, 68280, 68282, 68284, 68286, 68288, 68290, 68292, 68294, 68296, 68298, 68300, 68302, 68304, 68306, 68308, 68310, 68312, 68313, 68314, 68315, 68316, 68317, 68318, 68319, 68320, 68321, 68322, 68323, 68324, 68325, 68369, 68409, 68410, 68411, 68412, 68413, 68462, 68463, 68464, 68465, 68466, 68467, 68468, 68469, 68470, 68471, 68472, 68473, 68474, 68475, 68476, 68477, 68478, 68479, 68480, 68481, 68482, 68483, 68484, 68485, 68486, 68487, 68488, 68489, 68490, 68491, 68492, 68493, 68494, 68495, 68496, 68497, 68498, 68499, 68500, 68501, 68502, 68503, 68504, 68505, 68506, 68507, 68508, 68509, 68510, 68511, 68512, 68513, 68514, 68515, 68516, 68517, 68518, 68519, 68520, 68521, 68522, 68523, 68524, 68525, 68526, 68527, 68528, 68529, 68530, 68531, 68532, 68533, 68534, 68535, 68536, 68537, 68538, 68539, 68540, 68541, 68542, 68543, 68544, 68545, 68546, 68547, 68548, 68549, 68550, 68551, 68552, 68553, 68554, 68555, 68556, 68557, 68558, 68559, 68560, 68561, 68562, 68563, 68564, 68565, 68566, 68567, 68568, 68569, 68570, 68571, 68572, 68573, 68574, 68575, 68576, 68577, 68578, 68579, 68580, 68581, 68582, 68583, 68584, 68585, 68586, 68587, 68588, 68589, 68590, 68591, 68592, 68593, 68594, 68595, 68596, 68597, 68598, 68599, 68600, 68601, 68602, 68603, 68604, 68605, 68606, 68607, 68608, 68609, 68610, 68611, 68612, 68613, 68614, 68615, 68616, 68617, 68618, 68619, 68620, 68621, 68622, 68623, 68624, 68625, 68626, 68627, 68628, 68629, 68630, 68631, 68632, 68633, 68634, 68635, 68636, 68637, 68638, 68639, 68640, 68641, 68642, 68643, 68644, 68645, 68646, 68647, 68648, 68649, 68650, 68651, 68652, 68653, 68654, 68655, 68656, 68657, 68658, 68659, 68660, 68661, 68662, 68663, 68664, 68665, 68666, 68667, 68668, 68669, 68670, 68671, 68672, 68673, 68674, 68675, 68676, 68677, 68678, 68679, 68680, 68681, 68682, 68683, 68684, 68685, 68686, 68687, 68688, 68689, 68690, 68691, 68692, 68693, 68694, 68695, 68696, 68697, 68698, 68699, 68700, 68701, 68702, 68703, 68704, 68705, 68706, 68707, 68708, 68709, 68710, 68711, 68712, 68713, 68714, 68715, 68716, 68717, 68718, 68719, 68720, 68721, 68722, 68723, 68724, 68725, 68726, 68727, 68728, 68729, 68730, 68731, 68732, 68733, 68734, 68735, 68736, 68737, 68738, 68739, 68740, 68741, 68742, 68743, 68744, 68745, 68746, 68747, 68748, 68749, 68750, 68751, 68752, 68753, 68754, 68755, 68756, 68757, 68758, 68759, 68760, 68766, 68767, 68769, 68771, 68772, 68773, 68776, 68782, 68784, 68786, 68787, 68788, 68789, 68790, 68791, 68792, 68793, 68794, 68795, 68796, 68797, 68798, 68799, 68800, 68801, 68802, 68803, 68804, 68805, 68806, 68807, 68808, 68809, 68810, 68811, 68812, 68813, 68814, 69108, 69109, 69110, 69111, 69112, 69113, 69114, 69115, 69116, 69117, 69118, 69119, 69129, 69130, 69131, 69132, 69133, 69134, 69135, 69136, 69137, 69138, 69139, 69140, 69141, 69142, 69143, 69144, 69145, 69146, 69147, 69148, 69149, 69150, 69151, 69152, 69153, 69154, 69155, 69156, 69157, 69158, 69159, 69160, 69161, 69162, 69163, 69164, 69165, 69166, 69167, 69168, 69169, 69170, 69171, 69172, 69173, 69174, 69175, 69176, 69177, 69178, 69179, 69180, 69181, 69182, 69183, 69184, 69185, 69186, 69187, 69188, 69189, 69190, 69191, 69192, 69193, 69194, 69195, 69196, 69197, 69198, 69199, 69200, 69201, 69202, 69203, 69204, 69205, 69206, 69207, 69208, 69209, 69210, 69211, 69212, 69213, 69214, 69215, 69216, 69217, 69218, 69219, 69220, 69221, 69222, 69223, 69224, 69225, 69226, 69227, 69228, 69229, 69230, 69231, 69232, 69233, 69234, 69235, 69236, 69237, 69238, 69239, 69240, 69241, 69242, 69243, 69244, 69245, 69246, 69247, 69248, 69249, 69250, 69251, 69252, 69253, 69254, 69255, 69256, 69257, 69258, 69259, 69260, 69261, 69262, 69263, 69264, 69265, 69266, 69267, 69268, 69269, 69270, 69271, 69272, 69273, 69274, 69275, 69276, 69277, 69278, 69279, 69280, 69281, 69282, 69283, 69284, 69285, 69286, 69287, 69288, 69289, 69290, 69291, 69292, 69293, 69294, 69295, 69296, 69297, 69298, 69299, 69300, 69301, 69302, 69303, 69304, 69305, 69306, 69307, 69308, 69309, 69310, 69311, 69312, 69313, 69314, 69315, 69316, 69317, 69318, 69319, 69320, 69321, 69322, 69323, 69324, 69325, 69326, 69327, 69328, 69329, 69330, 69331, 69332, 69333, 69334, 69335, 69336, 69337, 69338, 69339, 69340, 69341, 69342, 69343, 69344, 69345, 69346, 69347, 69348, 69349, 69350, 69351, 69352, 69353, 69354, 69355, 69356, 69357, 69358, 69359, 69360, 69361, 69362, 69363, 69364, 69365, 69366, 69367, 69368, 69369, 69370, 69371, 69372, 69373, 69374, 69375, 69376, 69377, 69378, 69379, 69380, 69381, 69382, 69383, 69384, 69385, 69386, 69387, 69388, 69389, 69390, 69391, 69392, 69393, 69394, 69395, 69396, 69397, 69398, 69399, 69400, 69401, 69402, 69403, 69404, 69405, 69406, 69407, 69408, 69409, 69410, 69411, 69412, 69413, 69414, 69415, 69416, 69417, 69418, 69419, 69420, 69421, 69422, 69423, 69424, 69425, 69426, 69427, 69428, 69429, 69430, 69431, 69432, 69433, 69441, 69442, 69443, 69444, 69445, 69446, 69447, 69449, 69450, 69451, 69780, 69781, 70140, 70141, ok, events, sets, abilities, ranked_events, default */
 /***/ (function(module) {
 
@@ -97,15 +97,15 @@ module.exports = {"65961":{"name":"Adanto Vanguard","set":"Ixalan","images":{"sm
 
 /***/ }),
 
-/***/ "./extern/MTG-Arena-Tool/window_background/arena-log-decoder/arena-log-decoder.js":
-/*!****************************************************************************************!*\
-  !*** ./extern/MTG-Arena-Tool/window_background/arena-log-decoder/arena-log-decoder.js ***!
-  \****************************************************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/extern/MTG-Arena-Tool/window_background/arena-log-decoder/arena-log-decoder.js":
+/*!*********************************************************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/extern/MTG-Arena-Tool/window_background/arena-log-decoder/arena-log-decoder.js ***!
+  \*********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-const nthLastIndexOf = __webpack_require__(/*! ./nth-last-index-of */ "./extern/MTG-Arena-Tool/window_background/arena-log-decoder/nth-last-index-of.js");
-const jsonText = __webpack_require__(/*! ./json-text */ "./extern/MTG-Arena-Tool/window_background/arena-log-decoder/json-text.js");
+const nthLastIndexOf = __webpack_require__(/*! ./nth-last-index-of */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/extern/MTG-Arena-Tool/window_background/arena-log-decoder/nth-last-index-of.js");
+const jsonText = __webpack_require__(/*! ./json-text */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/extern/MTG-Arena-Tool/window_background/arena-log-decoder/json-text.js");
 
 const CONNECTION_JSON_PATTERN =
 	'\\[(?:UnityCrossThreadLogger|Client GRE)\\]WebSocketClient (.*) WebSocketSharp\\.WebSocket connecting to .*: (.*)(?:\\r\\n|\\n)';
@@ -263,10 +263,10 @@ module.exports = ArenaLogDecoder;
 
 /***/ }),
 
-/***/ "./extern/MTG-Arena-Tool/window_background/arena-log-decoder/json-text.js":
-/*!********************************************************************************!*\
-  !*** ./extern/MTG-Arena-Tool/window_background/arena-log-decoder/json-text.js ***!
-  \********************************************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/extern/MTG-Arena-Tool/window_background/arena-log-decoder/json-text.js":
+/*!*************************************************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/extern/MTG-Arena-Tool/window_background/arena-log-decoder/json-text.js ***!
+  \*************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -318,10 +318,10 @@ module.exports = { starts, length };
 
 /***/ }),
 
-/***/ "./extern/MTG-Arena-Tool/window_background/arena-log-decoder/nth-last-index-of.js":
-/*!****************************************************************************************!*\
-  !*** ./extern/MTG-Arena-Tool/window_background/arena-log-decoder/nth-last-index-of.js ***!
-  \****************************************************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/extern/MTG-Arena-Tool/window_background/arena-log-decoder/nth-last-index-of.js":
+/*!*********************************************************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/extern/MTG-Arena-Tool/window_background/arena-log-decoder/nth-last-index-of.js ***!
+  \*********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -339,10 +339,10 @@ module.exports = nthLastIndexOf;
 
 /***/ }),
 
-/***/ "./extern/gpad/src/hooks/useGoogleApi.ts":
-/*!***********************************************!*\
-  !*** ./extern/gpad/src/hooks/useGoogleApi.ts ***!
-  \***********************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/extern/gpad/src/hooks/useGoogleApi.ts":
+/*!****************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/extern/gpad/src/hooks/useGoogleApi.ts ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -395,7 +395,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var react_1 = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+var react_1 = __webpack_require__(/*! react */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react/index.js");
 // Client ID and API key from the Developer Console
 var CLIENT_ID = "236851809100-miu80r5sj3hjbrfv9gic09pj8udrthpg.apps.googleusercontent.com";
 var API_KEY = "AIzaSyAkB2oP1tvUHfmVZKIKe_iju12iU_R1Scw";
@@ -650,16 +650,16 @@ exports.GoogleApi = GoogleApi;
 
 /***/ }),
 
-/***/ "./node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js":
-/*!*******************************************************************************!*\
-  !*** ./node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js ***!
-  \*******************************************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js":
+/*!************************************************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js ***!
+  \************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _emotion_memoize__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/memoize */ "./node_modules/@emotion/memoize/dist/memoize.browser.esm.js");
+/* harmony import */ var _emotion_memoize__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/memoize */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/@emotion/memoize/dist/memoize.browser.esm.js");
 
 
 var reactPropsRegex = /^((children|dangerouslySetInnerHTML|key|ref|autoFocus|defaultValue|defaultChecked|innerHTML|suppressContentEditableWarning|suppressHydrationWarning|valueLink|accept|acceptCharset|accessKey|action|allow|allowUserMedia|allowPaymentRequest|allowFullScreen|allowTransparency|alt|async|autoComplete|autoPlay|capture|cellPadding|cellSpacing|challenge|charSet|checked|cite|classID|className|cols|colSpan|content|contentEditable|contextMenu|controls|controlsList|coords|crossOrigin|data|dateTime|default|defer|dir|disabled|download|draggable|encType|form|formAction|formEncType|formMethod|formNoValidate|formTarget|frameBorder|headers|height|hidden|high|href|hrefLang|htmlFor|httpEquiv|id|inputMode|integrity|is|keyParams|keyType|kind|label|lang|list|loop|low|marginHeight|marginWidth|max|maxLength|media|mediaGroup|method|min|minLength|multiple|muted|name|nonce|noValidate|open|optimum|pattern|placeholder|playsInline|poster|preload|profile|radioGroup|readOnly|referrerPolicy|rel|required|reversed|role|rows|rowSpan|sandbox|scope|scoped|scrolling|seamless|selected|shape|size|sizes|slot|span|spellCheck|src|srcDoc|srcLang|srcSet|start|step|style|summary|tabIndex|target|title|type|useMap|value|width|wmode|wrap|about|datatype|inlist|prefix|property|resource|typeof|vocab|autoCapitalize|autoCorrect|autoSave|color|itemProp|itemScope|itemType|itemID|itemRef|results|security|unselectable|accentHeight|accumulate|additive|alignmentBaseline|allowReorder|alphabetic|amplitude|arabicForm|ascent|attributeName|attributeType|autoReverse|azimuth|baseFrequency|baselineShift|baseProfile|bbox|begin|bias|by|calcMode|capHeight|clip|clipPathUnits|clipPath|clipRule|colorInterpolation|colorInterpolationFilters|colorProfile|colorRendering|contentScriptType|contentStyleType|cursor|cx|cy|d|decelerate|descent|diffuseConstant|direction|display|divisor|dominantBaseline|dur|dx|dy|edgeMode|elevation|enableBackground|end|exponent|externalResourcesRequired|fill|fillOpacity|fillRule|filter|filterRes|filterUnits|floodColor|floodOpacity|focusable|fontFamily|fontSize|fontSizeAdjust|fontStretch|fontStyle|fontVariant|fontWeight|format|from|fr|fx|fy|g1|g2|glyphName|glyphOrientationHorizontal|glyphOrientationVertical|glyphRef|gradientTransform|gradientUnits|hanging|horizAdvX|horizOriginX|ideographic|imageRendering|in|in2|intercept|k|k1|k2|k3|k4|kernelMatrix|kernelUnitLength|kerning|keyPoints|keySplines|keyTimes|lengthAdjust|letterSpacing|lightingColor|limitingConeAngle|local|markerEnd|markerMid|markerStart|markerHeight|markerUnits|markerWidth|mask|maskContentUnits|maskUnits|mathematical|mode|numOctaves|offset|opacity|operator|order|orient|orientation|origin|overflow|overlinePosition|overlineThickness|panose1|paintOrder|pathLength|patternContentUnits|patternTransform|patternUnits|pointerEvents|points|pointsAtX|pointsAtY|pointsAtZ|preserveAlpha|preserveAspectRatio|primitiveUnits|r|radius|refX|refY|renderingIntent|repeatCount|repeatDur|requiredExtensions|requiredFeatures|restart|result|rotate|rx|ry|scale|seed|shapeRendering|slope|spacing|specularConstant|specularExponent|speed|spreadMethod|startOffset|stdDeviation|stemh|stemv|stitchTiles|stopColor|stopOpacity|strikethroughPosition|strikethroughThickness|string|stroke|strokeDasharray|strokeDashoffset|strokeLinecap|strokeLinejoin|strokeMiterlimit|strokeOpacity|strokeWidth|surfaceScale|systemLanguage|tableValues|targetX|targetY|textAnchor|textDecoration|textRendering|textLength|to|transform|u1|u2|underlinePosition|underlineThickness|unicode|unicodeBidi|unicodeRange|unitsPerEm|vAlphabetic|vHanging|vIdeographic|vMathematical|values|vectorEffect|version|vertAdvY|vertOriginX|vertOriginY|viewBox|viewTarget|visibility|widths|wordSpacing|writingMode|x|xHeight|x1|x2|xChannelSelector|xlinkActuate|xlinkArcrole|xlinkHref|xlinkRole|xlinkShow|xlinkTitle|xlinkType|xmlBase|xmlns|xmlnsXlink|xmlLang|xmlSpace|y|y1|y2|yChannelSelector|z|zoomAndPan|for|class|autofocus)|(([Dd][Aa][Tt][Aa]|[Aa][Rr][Ii][Aa]|x)-.*))$/; // https://esbench.com/bench/5bfee68a4cd7e6009ef61d23
@@ -679,10 +679,10 @@ var index = Object(_emotion_memoize__WEBPACK_IMPORTED_MODULE_0__["default"])(fun
 
 /***/ }),
 
-/***/ "./node_modules/@emotion/memoize/dist/memoize.browser.esm.js":
-/*!*******************************************************************!*\
-  !*** ./node_modules/@emotion/memoize/dist/memoize.browser.esm.js ***!
-  \*******************************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/@emotion/memoize/dist/memoize.browser.esm.js":
+/*!************************************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/@emotion/memoize/dist/memoize.browser.esm.js ***!
+  \************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -701,10 +701,10 @@ function memoize(fn) {
 
 /***/ }),
 
-/***/ "./node_modules/@emotion/unitless/dist/unitless.browser.esm.js":
-/*!*********************************************************************!*\
-  !*** ./node_modules/@emotion/unitless/dist/unitless.browser.esm.js ***!
-  \*********************************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/@emotion/unitless/dist/unitless.browser.esm.js":
+/*!**************************************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/@emotion/unitless/dist/unitless.browser.esm.js ***!
+  \**************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -764,10 +764,10 @@ var unitlessKeys = {
 
 /***/ }),
 
-/***/ "./node_modules/classnames/index.js":
-/*!******************************************!*\
-  !*** ./node_modules/classnames/index.js ***!
-  \******************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/classnames/index.js":
+/*!***********************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/classnames/index.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -826,14 +826,14 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/react-table/react-table.css":
-/*!****************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/react-table/react-table.css ***!
-  \****************************************************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/css-loader/dist/cjs.js!../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/react-table.css":
+/*!**************************************************************************************************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/css-loader/dist/cjs.js!c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/react-table.css ***!
+  \**************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../css-loader/dist/runtime/api.js */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
 exports.push([module.i, ".ReactTable{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;border:1px solid rgba(0,0,0,0.1);}.ReactTable *{box-sizing:border-box}.ReactTable .rt-table{-webkit-box-flex:1;-ms-flex:auto 1;flex:auto 1;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;width:100%;border-collapse:collapse;overflow:auto}.ReactTable .rt-thead{-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}.ReactTable .rt-thead.-headerGroups{background:rgba(0,0,0,0.03);border-bottom:1px solid rgba(0,0,0,0.05)}.ReactTable .rt-thead.-filters{border-bottom:1px solid rgba(0,0,0,0.05);}.ReactTable .rt-thead.-filters input,.ReactTable .rt-thead.-filters select{border:1px solid rgba(0,0,0,0.1);background:#fff;padding:5px 7px;font-size:inherit;border-radius:3px;font-weight:normal;outline:none}.ReactTable .rt-thead.-filters .rt-th{border-right:1px solid rgba(0,0,0,0.02)}.ReactTable .rt-thead.-header{box-shadow:0 2px 15px 0 rgba(0,0,0,0.15)}.ReactTable .rt-thead .rt-tr{text-align:center}.ReactTable .rt-thead .rt-th,.ReactTable .rt-thead .rt-td{padding:5px 5px;line-height:normal;position:relative;border-right:1px solid rgba(0,0,0,0.05);transition:box-shadow .3s cubic-bezier(.175,.885,.32,1.275);box-shadow:inset 0 0 0 0 transparent;}.ReactTable .rt-thead .rt-th.-sort-asc,.ReactTable .rt-thead .rt-td.-sort-asc{box-shadow:inset 0 3px 0 0 rgba(0,0,0,0.6)}.ReactTable .rt-thead .rt-th.-sort-desc,.ReactTable .rt-thead .rt-td.-sort-desc{box-shadow:inset 0 -3px 0 0 rgba(0,0,0,0.6)}.ReactTable .rt-thead .rt-th.-cursor-pointer,.ReactTable .rt-thead .rt-td.-cursor-pointer{cursor:pointer}.ReactTable .rt-thead .rt-th:last-child,.ReactTable .rt-thead .rt-td:last-child{border-right:0}.ReactTable .rt-thead .rt-th:focus{outline:none}.ReactTable .rt-thead .rt-resizable-header{overflow:visible;}.ReactTable .rt-thead .rt-resizable-header:last-child{overflow:hidden}.ReactTable .rt-thead .rt-resizable-header-content{overflow:hidden;text-overflow:ellipsis}.ReactTable .rt-thead .rt-header-pivot{border-right-color:#f7f7f7}.ReactTable .rt-thead .rt-header-pivot:after,.ReactTable .rt-thead .rt-header-pivot:before{left:100%;top:50%;border:solid transparent;content:\" \";height:0;width:0;position:absolute;pointer-events:none}.ReactTable .rt-thead .rt-header-pivot:after{border-color:rgba(255,255,255,0);border-left-color:#fff;border-width:8px;margin-top:-8px}.ReactTable .rt-thead .rt-header-pivot:before{border-color:rgba(102,102,102,0);border-left-color:#f7f7f7;border-width:10px;margin-top:-10px}.ReactTable .rt-tbody{-webkit-box-flex:99999;-ms-flex:99999 1 auto;flex:99999 1 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;overflow:auto;}.ReactTable .rt-tbody .rt-tr-group{border-bottom:solid 1px rgba(0,0,0,0.05);}.ReactTable .rt-tbody .rt-tr-group:last-child{border-bottom:0}.ReactTable .rt-tbody .rt-td{border-right:1px solid rgba(0,0,0,0.02);}.ReactTable .rt-tbody .rt-td:last-child{border-right:0}.ReactTable .rt-tbody .rt-expandable{cursor:pointer;text-overflow:clip}.ReactTable .rt-tr-group{-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch}.ReactTable .rt-tr{-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex}.ReactTable .rt-th,.ReactTable .rt-td{-webkit-box-flex:1;-ms-flex:1 0 0px;flex:1 0 0;white-space:nowrap;text-overflow:ellipsis;padding:7px 5px;overflow:hidden;transition:.3s ease;transition-property:width,min-width,padding,opacity;}.ReactTable .rt-th.-hidden,.ReactTable .rt-td.-hidden{width:0 !important;min-width:0 !important;padding:0 !important;border:0 !important;opacity:0 !important}.ReactTable .rt-expander{display:inline-block;position:relative;margin:0;color:transparent;margin:0 10px;}.ReactTable .rt-expander:after{content:'';position:absolute;width:0;height:0;top:50%;left:50%;-webkit-transform:translate(-50%,-50%) rotate(-90deg);transform:translate(-50%,-50%) rotate(-90deg);border-left:5.04px solid transparent;border-right:5.04px solid transparent;border-top:7px solid rgba(0,0,0,0.8);transition:all .3s cubic-bezier(.175,.885,.32,1.275);cursor:pointer}.ReactTable .rt-expander.-open:after{-webkit-transform:translate(-50%,-50%) rotate(0);transform:translate(-50%,-50%) rotate(0)}.ReactTable .rt-resizer{display:inline-block;position:absolute;width:36px;top:0;bottom:0;right:-18px;cursor:col-resize;z-index:10}.ReactTable .rt-tfoot{-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;box-shadow:0 0 15px 0 rgba(0,0,0,0.15);}.ReactTable .rt-tfoot .rt-td{border-right:1px solid rgba(0,0,0,0.05);}.ReactTable .rt-tfoot .rt-td:last-child{border-right:0}.ReactTable.-striped .rt-tr.-odd{background:rgba(0,0,0,0.03)}.ReactTable.-highlight .rt-tbody .rt-tr:not(.-padRow):hover{background:rgba(0,0,0,0.05)}.ReactTable .-pagination{z-index:1;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;-ms-flex-wrap:wrap;flex-wrap:wrap;padding:3px;box-shadow:0 0 15px 0 rgba(0,0,0,0.1);border-top:2px solid rgba(0,0,0,0.1);}.ReactTable .-pagination input,.ReactTable .-pagination select{border:1px solid rgba(0,0,0,0.1);background:#fff;padding:5px 7px;font-size:inherit;border-radius:3px;font-weight:normal;outline:none}.ReactTable .-pagination .-btn{-webkit-appearance:none;-moz-appearance:none;appearance:none;display:block;width:100%;height:100%;border:0;border-radius:3px;padding:6px;font-size:1em;color:rgba(0,0,0,0.6);background:rgba(0,0,0,0.1);transition:all .1s ease;cursor:pointer;outline:none;}.ReactTable .-pagination .-btn[disabled]{opacity:.5;cursor:default}.ReactTable .-pagination .-btn:not([disabled]):hover{background:rgba(0,0,0,0.3);color:#fff}.ReactTable .-pagination .-previous,.ReactTable .-pagination .-next{-webkit-box-flex:1;-ms-flex:1;flex:1;text-align:center}.ReactTable .-pagination .-center{-webkit-box-flex:1.5;-ms-flex:1.5;flex:1.5;text-align:center;margin-bottom:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-pack:distribute;justify-content:space-around}.ReactTable .-pagination .-pageInfo{display:inline-block;margin:3px 10px;white-space:nowrap}.ReactTable .-pagination .-pageJump{display:inline-block;}.ReactTable .-pagination .-pageJump input{width:70px;text-align:center}.ReactTable .-pagination .-pageSizeOptions{margin:3px 10px}.ReactTable .rt-noData{display:block;position:absolute;left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);background:rgba(255,255,255,0.8);transition:all .3s ease;z-index:1;pointer-events:none;padding:20px;color:rgba(0,0,0,0.5)}.ReactTable .-loading{display:block;position:absolute;left:0;right:0;top:0;bottom:0;background:rgba(255,255,255,0.8);transition:all .3s ease;z-index:-1;opacity:0;pointer-events:none;}.ReactTable .-loading > div{position:absolute;display:block;text-align:center;width:100%;top:50%;left:0;font-size:15px;color:rgba(0,0,0,0.6);-webkit-transform:translateY(-52%);transform:translateY(-52%);transition:all .3s cubic-bezier(.25,.46,.45,.94)}.ReactTable .-loading.-active{opacity:1;z-index:2;pointer-events:all;}.ReactTable .-loading.-active > div{-webkit-transform:translateY(50%);transform:translateY(50%)}.ReactTable .rt-resizing .rt-th,.ReactTable .rt-resizing .rt-td{transition:none !important;cursor:col-resize;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}", ""]);
 
@@ -841,10 +841,10 @@ exports.push([module.i, ".ReactTable{position:relative;display:-webkit-box;displ
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/runtime/api.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
-  \*****************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/css-loader/dist/runtime/api.js":
+/*!**********************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/css-loader/dist/runtime/api.js ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -937,10 +937,10 @@ function toComment(sourceMap) {
 
 /***/ }),
 
-/***/ "./node_modules/memoize-one/dist/memoize-one.esm.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/memoize-one/dist/memoize-one.esm.js ***!
-  \**********************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/memoize-one/dist/memoize-one.esm.js":
+/*!***************************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/memoize-one/dist/memoize-one.esm.js ***!
+  \***************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -988,10 +988,10 @@ function index (resultFn, isEqual) {
 
 /***/ }),
 
-/***/ "./node_modules/object-assign/index.js":
-/*!*********************************************!*\
-  !*** ./node_modules/object-assign/index.js ***!
-  \*********************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/object-assign/index.js":
+/*!**************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/object-assign/index.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1090,10 +1090,10 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
 /***/ }),
 
-/***/ "./node_modules/process/browser.js":
-/*!*****************************************!*\
-  !*** ./node_modules/process/browser.js ***!
-  \*****************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/process/browser.js":
+/*!**********************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/process/browser.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -1285,10 +1285,10 @@ process.umask = function() { return 0; };
 
 /***/ }),
 
-/***/ "./node_modules/prop-types/checkPropTypes.js":
-/*!***************************************************!*\
-  !*** ./node_modules/prop-types/checkPropTypes.js ***!
-  \***************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/prop-types/checkPropTypes.js":
+/*!********************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/prop-types/checkPropTypes.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1305,7 +1305,7 @@ process.umask = function() { return 0; };
 var printWarning = function() {};
 
 if (true) {
-  var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+  var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/prop-types/lib/ReactPropTypesSecret.js");
   var loggedTypeFailures = {};
   var has = Function.call.bind(Object.prototype.hasOwnProperty);
 
@@ -1399,10 +1399,10 @@ module.exports = checkPropTypes;
 
 /***/ }),
 
-/***/ "./node_modules/prop-types/factoryWithTypeCheckers.js":
-/*!************************************************************!*\
-  !*** ./node_modules/prop-types/factoryWithTypeCheckers.js ***!
-  \************************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/prop-types/factoryWithTypeCheckers.js":
+/*!*****************************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/prop-types/factoryWithTypeCheckers.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1416,11 +1416,11 @@ module.exports = checkPropTypes;
 
 
 
-var ReactIs = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
-var assign = __webpack_require__(/*! object-assign */ "./node_modules/object-assign/index.js");
+var ReactIs = __webpack_require__(/*! react-is */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-is/index.js");
+var assign = __webpack_require__(/*! object-assign */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/object-assign/index.js");
 
-var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "./node_modules/prop-types/lib/ReactPropTypesSecret.js");
-var checkPropTypes = __webpack_require__(/*! ./checkPropTypes */ "./node_modules/prop-types/checkPropTypes.js");
+var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/prop-types/lib/ReactPropTypesSecret.js");
+var checkPropTypes = __webpack_require__(/*! ./checkPropTypes */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/prop-types/checkPropTypes.js");
 
 var has = Function.call.bind(Object.prototype.hasOwnProperty);
 var printWarning = function() {};
@@ -2002,10 +2002,10 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 
 /***/ }),
 
-/***/ "./node_modules/prop-types/index.js":
-/*!******************************************!*\
-  !*** ./node_modules/prop-types/index.js ***!
-  \******************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/prop-types/index.js":
+/*!***********************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/prop-types/index.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2017,21 +2017,21 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
  */
 
 if (true) {
-  var ReactIs = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
+  var ReactIs = __webpack_require__(/*! react-is */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-is/index.js");
 
   // By explicitly using `prop-types` you are opting into new development behavior.
   // http://fb.me/prop-types-in-prod
   var throwOnDirectAccess = true;
-  module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ "./node_modules/prop-types/factoryWithTypeCheckers.js")(ReactIs.isElement, throwOnDirectAccess);
+  module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/prop-types/factoryWithTypeCheckers.js")(ReactIs.isElement, throwOnDirectAccess);
 } else {}
 
 
 /***/ }),
 
-/***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
-/*!*************************************************************!*\
-  !*** ./node_modules/prop-types/lib/ReactPropTypesSecret.js ***!
-  \*************************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/prop-types/lib/ReactPropTypesSecret.js":
+/*!******************************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/prop-types/lib/ReactPropTypesSecret.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2052,10 +2052,10 @@ module.exports = ReactPropTypesSecret;
 
 /***/ }),
 
-/***/ "./node_modules/react-dom/cjs/react-dom.development.js":
-/*!*************************************************************!*\
-  !*** ./node_modules/react-dom/cjs/react-dom.development.js ***!
-  \*************************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-dom/cjs/react-dom.development.js":
+/*!******************************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-dom/cjs/react-dom.development.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2077,11 +2077,11 @@ if (true) {
   (function() {
 'use strict';
 
-var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-var _assign = __webpack_require__(/*! object-assign */ "./node_modules/object-assign/index.js");
-var checkPropTypes = __webpack_require__(/*! prop-types/checkPropTypes */ "./node_modules/react-dom/node_modules/prop-types/checkPropTypes.js");
-var scheduler = __webpack_require__(/*! scheduler */ "./node_modules/scheduler/index.js");
-var tracing = __webpack_require__(/*! scheduler/tracing */ "./node_modules/scheduler/tracing.js");
+var React = __webpack_require__(/*! react */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react/index.js");
+var _assign = __webpack_require__(/*! object-assign */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/object-assign/index.js");
+var checkPropTypes = __webpack_require__(/*! prop-types/checkPropTypes */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-dom/node_modules/prop-types/checkPropTypes.js");
+var scheduler = __webpack_require__(/*! scheduler */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/scheduler/index.js");
+var tracing = __webpack_require__(/*! scheduler/tracing */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/scheduler/tracing.js");
 
 /**
  * Use invariant() to assert state which your program assumes to be true.
@@ -22811,10 +22811,10 @@ module.exports = reactDom;
 
 /***/ }),
 
-/***/ "./node_modules/react-dom/index.js":
-/*!*****************************************!*\
-  !*** ./node_modules/react-dom/index.js ***!
-  \*****************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-dom/index.js":
+/*!**********************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-dom/index.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22850,16 +22850,16 @@ function checkDCE() {
 }
 
 if (false) {} else {
-  module.exports = __webpack_require__(/*! ./cjs/react-dom.development.js */ "./node_modules/react-dom/cjs/react-dom.development.js");
+  module.exports = __webpack_require__(/*! ./cjs/react-dom.development.js */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-dom/cjs/react-dom.development.js");
 }
 
 
 /***/ }),
 
-/***/ "./node_modules/react-dom/node_modules/prop-types/checkPropTypes.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/react-dom/node_modules/prop-types/checkPropTypes.js ***!
-  \**************************************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-dom/node_modules/prop-types/checkPropTypes.js":
+/*!*******************************************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-dom/node_modules/prop-types/checkPropTypes.js ***!
+  \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22876,7 +22876,7 @@ if (false) {} else {
 var printWarning = function() {};
 
 if (true) {
-  var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "./node_modules/react-dom/node_modules/prop-types/lib/ReactPropTypesSecret.js");
+  var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-dom/node_modules/prop-types/lib/ReactPropTypesSecret.js");
   var loggedTypeFailures = {};
   var has = Function.call.bind(Object.prototype.hasOwnProperty);
 
@@ -22970,10 +22970,10 @@ module.exports = checkPropTypes;
 
 /***/ }),
 
-/***/ "./node_modules/react-dom/node_modules/prop-types/lib/ReactPropTypesSecret.js":
-/*!************************************************************************************!*\
-  !*** ./node_modules/react-dom/node_modules/prop-types/lib/ReactPropTypesSecret.js ***!
-  \************************************************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-dom/node_modules/prop-types/lib/ReactPropTypesSecret.js":
+/*!*****************************************************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-dom/node_modules/prop-types/lib/ReactPropTypesSecret.js ***!
+  \*****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22994,10 +22994,10 @@ module.exports = ReactPropTypesSecret;
 
 /***/ }),
 
-/***/ "./node_modules/react-is/cjs/react-is.development.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/react-is/cjs/react-is.development.js ***!
-  \***********************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-is/cjs/react-is.development.js":
+/*!****************************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-is/cjs/react-is.development.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23233,10 +23233,10 @@ exports.isSuspense = isSuspense;
 
 /***/ }),
 
-/***/ "./node_modules/react-is/index.js":
-/*!****************************************!*\
-  !*** ./node_modules/react-is/index.js ***!
-  \****************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-is/index.js":
+/*!*********************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-is/index.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23244,27 +23244,27 @@ exports.isSuspense = isSuspense;
 
 
 if (false) {} else {
-  module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "./node_modules/react-is/cjs/react-is.development.js");
+  module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-is/cjs/react-is.development.js");
 }
 
 
 /***/ }),
 
-/***/ "./node_modules/react-table/es/defaultProps.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/react-table/es/defaultProps.js ***!
-  \*****************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/es/defaultProps.js":
+/*!**********************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/es/defaultProps.js ***!
+  \**********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! classnames */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./utils */ "./node_modules/react-table/es/utils.js");
-/* harmony import */ var _pagination__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pagination */ "./node_modules/react-table/es/pagination.js");
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./utils */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/es/utils.js");
+/* harmony import */ var _pagination__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pagination */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/es/pagination.js");
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
@@ -23623,25 +23623,25 @@ var emptyObj = function emptyObj() {
 
 /***/ }),
 
-/***/ "./node_modules/react-table/es/index.js":
-/*!**********************************************!*\
-  !*** ./node_modules/react-table/es/index.js ***!
-  \**********************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/es/index.js":
+/*!***************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/es/index.js ***!
+  \***************************************************************************************/
 /*! exports provided: ReactTableDefaults, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ReactTableDefaults", function() { return ReactTableDefaults; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! classnames */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./utils */ "./node_modules/react-table/es/utils.js");
-/* harmony import */ var _lifecycle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./lifecycle */ "./node_modules/react-table/es/lifecycle.js");
-/* harmony import */ var _methods__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./methods */ "./node_modules/react-table/es/methods.js");
-/* harmony import */ var _defaultProps__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./defaultProps */ "./node_modules/react-table/es/defaultProps.js");
-/* harmony import */ var _propTypes__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./propTypes */ "./node_modules/react-table/es/propTypes.js");
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./utils */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/es/utils.js");
+/* harmony import */ var _lifecycle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./lifecycle */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/es/lifecycle.js");
+/* harmony import */ var _methods__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./methods */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/es/methods.js");
+/* harmony import */ var _defaultProps__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./defaultProps */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/es/defaultProps.js");
+/* harmony import */ var _propTypes__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./propTypes */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/es/propTypes.js");
 var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -24449,10 +24449,10 @@ ReactTable.defaultProps = _defaultProps__WEBPACK_IMPORTED_MODULE_5__["default"];
 
 /***/ }),
 
-/***/ "./node_modules/react-table/es/lifecycle.js":
-/*!**************************************************!*\
-  !*** ./node_modules/react-table/es/lifecycle.js ***!
-  \**************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/es/lifecycle.js":
+/*!*******************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/es/lifecycle.js ***!
+  \*******************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -24586,18 +24586,18 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 /***/ }),
 
-/***/ "./node_modules/react-table/es/methods.js":
-/*!************************************************!*\
-  !*** ./node_modules/react-table/es/methods.js ***!
-  \************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/es/methods.js":
+/*!*****************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/es/methods.js ***!
+  \*****************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./utils */ "./node_modules/react-table/es/utils.js");
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./utils */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/es/utils.js");
 var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -25350,18 +25350,18 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 /***/ }),
 
-/***/ "./node_modules/react-table/es/pagination.js":
-/*!***************************************************!*\
-  !*** ./node_modules/react-table/es/pagination.js ***!
-  \***************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/es/pagination.js":
+/*!********************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/es/pagination.js ***!
+  \********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! classnames */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_1__);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -25620,16 +25620,16 @@ ReactTablePagination.defaultProps = {
 
 /***/ }),
 
-/***/ "./node_modules/react-table/es/propTypes.js":
-/*!**************************************************!*\
-  !*** ./node_modules/react-table/es/propTypes.js ***!
-  \**************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/es/propTypes.js":
+/*!*******************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/es/propTypes.js ***!
+  \*******************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! prop-types */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_0__);
 
 
@@ -25802,18 +25802,18 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/react-table/es/utils.js":
-/*!**********************************************!*\
-  !*** ./node_modules/react-table/es/utils.js ***!
-  \**********************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/es/utils.js":
+/*!***************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/es/utils.js ***!
+  \***************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! classnames */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_1__);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -26044,15 +26044,15 @@ function normalizeComponent(Comp) {
 
 /***/ }),
 
-/***/ "./node_modules/react-table/react-table.css":
-/*!**************************************************!*\
-  !*** ./node_modules/react-table/react-table.css ***!
-  \**************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/react-table.css":
+/*!*******************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/react-table.css ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../css-loader/dist/cjs.js!./react-table.css */ "./node_modules/css-loader/dist/cjs.js!./node_modules/react-table/react-table.css");
+var content = __webpack_require__(/*! !../css-loader/dist/cjs.js!./react-table.css */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/css-loader/dist/cjs.js!../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/react-table.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -26066,7 +26066,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../style-loader/lib/addStyles.js */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -26074,10 +26074,10 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./node_modules/react/cjs/react.development.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/react/cjs/react.development.js ***!
-  \*****************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react/cjs/react.development.js":
+/*!**********************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react/cjs/react.development.js ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26099,8 +26099,8 @@ if (true) {
   (function() {
 'use strict';
 
-var _assign = __webpack_require__(/*! object-assign */ "./node_modules/object-assign/index.js");
-var checkPropTypes = __webpack_require__(/*! prop-types/checkPropTypes */ "./node_modules/react/node_modules/prop-types/checkPropTypes.js");
+var _assign = __webpack_require__(/*! object-assign */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/object-assign/index.js");
+var checkPropTypes = __webpack_require__(/*! prop-types/checkPropTypes */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react/node_modules/prop-types/checkPropTypes.js");
 
 // TODO: this is special because it gets imported during build.
 
@@ -27987,10 +27987,10 @@ module.exports = react;
 
 /***/ }),
 
-/***/ "./node_modules/react/index.js":
-/*!*************************************!*\
-  !*** ./node_modules/react/index.js ***!
-  \*************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react/index.js":
+/*!******************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react/index.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -27998,16 +27998,16 @@ module.exports = react;
 
 
 if (false) {} else {
-  module.exports = __webpack_require__(/*! ./cjs/react.development.js */ "./node_modules/react/cjs/react.development.js");
+  module.exports = __webpack_require__(/*! ./cjs/react.development.js */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react/cjs/react.development.js");
 }
 
 
 /***/ }),
 
-/***/ "./node_modules/react/node_modules/prop-types/checkPropTypes.js":
-/*!**********************************************************************!*\
-  !*** ./node_modules/react/node_modules/prop-types/checkPropTypes.js ***!
-  \**********************************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react/node_modules/prop-types/checkPropTypes.js":
+/*!***************************************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react/node_modules/prop-types/checkPropTypes.js ***!
+  \***************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -28024,7 +28024,7 @@ if (false) {} else {
 var printWarning = function() {};
 
 if (true) {
-  var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "./node_modules/react/node_modules/prop-types/lib/ReactPropTypesSecret.js");
+  var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react/node_modules/prop-types/lib/ReactPropTypesSecret.js");
   var loggedTypeFailures = {};
   var has = Function.call.bind(Object.prototype.hasOwnProperty);
 
@@ -28118,10 +28118,10 @@ module.exports = checkPropTypes;
 
 /***/ }),
 
-/***/ "./node_modules/react/node_modules/prop-types/lib/ReactPropTypesSecret.js":
-/*!********************************************************************************!*\
-  !*** ./node_modules/react/node_modules/prop-types/lib/ReactPropTypesSecret.js ***!
-  \********************************************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react/node_modules/prop-types/lib/ReactPropTypesSecret.js":
+/*!*************************************************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react/node_modules/prop-types/lib/ReactPropTypesSecret.js ***!
+  \*************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -28142,10 +28142,10 @@ module.exports = ReactPropTypesSecret;
 
 /***/ }),
 
-/***/ "./node_modules/scheduler/cjs/scheduler-tracing.development.js":
-/*!*********************************************************************!*\
-  !*** ./node_modules/scheduler/cjs/scheduler-tracing.development.js ***!
-  \*********************************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/scheduler/cjs/scheduler-tracing.development.js":
+/*!**************************************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/scheduler/cjs/scheduler-tracing.development.js ***!
+  \**************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -28577,10 +28577,10 @@ exports.unstable_unsubscribe = unstable_unsubscribe;
 
 /***/ }),
 
-/***/ "./node_modules/scheduler/cjs/scheduler.development.js":
-/*!*************************************************************!*\
-  !*** ./node_modules/scheduler/cjs/scheduler.development.js ***!
-  \*************************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/scheduler/cjs/scheduler.development.js":
+/*!******************************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/scheduler/cjs/scheduler.development.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -29253,14 +29253,14 @@ exports.unstable_getFirstCallbackNode = unstable_getFirstCallbackNode;
   })();
 }
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../webpack/buildin/global.js */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
-/***/ "./node_modules/scheduler/index.js":
-/*!*****************************************!*\
-  !*** ./node_modules/scheduler/index.js ***!
-  \*****************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/scheduler/index.js":
+/*!**********************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/scheduler/index.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -29268,16 +29268,16 @@ exports.unstable_getFirstCallbackNode = unstable_getFirstCallbackNode;
 
 
 if (false) {} else {
-  module.exports = __webpack_require__(/*! ./cjs/scheduler.development.js */ "./node_modules/scheduler/cjs/scheduler.development.js");
+  module.exports = __webpack_require__(/*! ./cjs/scheduler.development.js */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/scheduler/cjs/scheduler.development.js");
 }
 
 
 /***/ }),
 
-/***/ "./node_modules/scheduler/tracing.js":
-/*!*******************************************!*\
-  !*** ./node_modules/scheduler/tracing.js ***!
-  \*******************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/scheduler/tracing.js":
+/*!************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/scheduler/tracing.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -29285,16 +29285,16 @@ if (false) {} else {
 
 
 if (false) {} else {
-  module.exports = __webpack_require__(/*! ./cjs/scheduler-tracing.development.js */ "./node_modules/scheduler/cjs/scheduler-tracing.development.js");
+  module.exports = __webpack_require__(/*! ./cjs/scheduler-tracing.development.js */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/scheduler/cjs/scheduler-tracing.development.js");
 }
 
 
 /***/ }),
 
-/***/ "./node_modules/style-loader/lib/addStyles.js":
-/*!****************************************************!*\
-  !*** ./node_modules/style-loader/lib/addStyles.js ***!
-  \****************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/style-loader/lib/addStyles.js":
+/*!*********************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/style-loader/lib/addStyles.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -29364,7 +29364,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(/*! ./urls */ "./node_modules/style-loader/lib/urls.js");
+var	fixUrls = __webpack_require__(/*! ./urls */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/style-loader/lib/urls.js");
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -29700,10 +29700,10 @@ function updateLink (link, options, obj) {
 
 /***/ }),
 
-/***/ "./node_modules/style-loader/lib/urls.js":
-/*!***********************************************!*\
-  !*** ./node_modules/style-loader/lib/urls.js ***!
-  \***********************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/style-loader/lib/urls.js":
+/*!****************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/style-loader/lib/urls.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -29800,10 +29800,10 @@ module.exports = function (css) {
 
 /***/ }),
 
-/***/ "./node_modules/styled-components/dist/styled-components.browser.esm.js":
-/*!******************************************************************************!*\
-  !*** ./node_modules/styled-components/dist/styled-components.browser.esm.js ***!
-  \******************************************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/styled-components/dist/styled-components.browser.esm.js":
+/*!***********************************************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/styled-components/dist/styled-components.browser.esm.js ***!
+  \***********************************************************************************************************************/
 /*! exports provided: default, css, keyframes, createGlobalStyle, isStyledComponent, ThemeConsumer, ThemeContext, ThemeProvider, withTheme, ServerStyleSheet, StyleSheetManager, __DO_NOT_USE_OR_YOU_WILL_BE_HAUNTED_BY_SPOOKY_GHOSTS */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -29820,21 +29820,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ServerStyleSheet", function() { return ServerStyleSheet; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StyleSheetManager", function() { return StyleSheetManager; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__DO_NOT_USE_OR_YOU_WILL_BE_HAUNTED_BY_SPOOKY_GHOSTS", function() { return __DO_NOT_USE_OR_YOU_WILL_BE_HAUNTED_BY_SPOOKY_GHOSTS; });
-/* harmony import */ var stylis_stylis_min__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! stylis/stylis.min */ "./node_modules/stylis/stylis.min.js");
+/* harmony import */ var stylis_stylis_min__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! stylis/stylis.min */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/stylis/stylis.min.js");
 /* harmony import */ var stylis_stylis_min__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(stylis_stylis_min__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var stylis_rule_sheet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! stylis-rule-sheet */ "./node_modules/stylis-rule-sheet/index.js");
+/* harmony import */ var stylis_rule_sheet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! stylis-rule-sheet */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/stylis-rule-sheet/index.js");
 /* harmony import */ var stylis_rule_sheet__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(stylis_rule_sheet__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _emotion_unitless__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @emotion/unitless */ "./node_modules/@emotion/unitless/dist/unitless.browser.esm.js");
-/* harmony import */ var react_is__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
+/* harmony import */ var _emotion_unitless__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @emotion/unitless */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/@emotion/unitless/dist/unitless.browser.esm.js");
+/* harmony import */ var react_is__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-is */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-is/index.js");
 /* harmony import */ var react_is__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_is__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var memoize_one__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! memoize-one */ "./node_modules/memoize-one/dist/memoize-one.esm.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! prop-types */ "./node_modules/styled-components/node_modules/prop-types/index.js");
+/* harmony import */ var memoize_one__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! memoize-one */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/memoize-one/dist/memoize-one.esm.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! prop-types */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/styled-components/node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-dom */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-dom/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _emotion_is_prop_valid__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @emotion/is-prop-valid */ "./node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js");
+/* harmony import */ var _emotion_is_prop_valid__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @emotion/is-prop-valid */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js");
 
 
 
@@ -32338,14 +32338,14 @@ if ( true && typeof window !== 'undefined' && typeof navigator !== 'undefined' &
 /* harmony default export */ __webpack_exports__["default"] = (styled);
 
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../process/browser.js */ "./node_modules/process/browser.js"), __webpack_require__(/*! ./../../webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../process/browser.js */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/process/browser.js"), __webpack_require__(/*! ./../../webpack/buildin/harmony-module.js */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
 
-/***/ "./node_modules/styled-components/node_modules/prop-types/checkPropTypes.js":
-/*!**********************************************************************************!*\
-  !*** ./node_modules/styled-components/node_modules/prop-types/checkPropTypes.js ***!
-  \**********************************************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/styled-components/node_modules/prop-types/checkPropTypes.js":
+/*!***************************************************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/styled-components/node_modules/prop-types/checkPropTypes.js ***!
+  \***************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -32362,7 +32362,7 @@ if ( true && typeof window !== 'undefined' && typeof navigator !== 'undefined' &
 var printWarning = function() {};
 
 if (true) {
-  var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "./node_modules/styled-components/node_modules/prop-types/lib/ReactPropTypesSecret.js");
+  var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/styled-components/node_modules/prop-types/lib/ReactPropTypesSecret.js");
   var loggedTypeFailures = {};
   var has = Function.call.bind(Object.prototype.hasOwnProperty);
 
@@ -32456,10 +32456,10 @@ module.exports = checkPropTypes;
 
 /***/ }),
 
-/***/ "./node_modules/styled-components/node_modules/prop-types/factoryWithTypeCheckers.js":
-/*!*******************************************************************************************!*\
-  !*** ./node_modules/styled-components/node_modules/prop-types/factoryWithTypeCheckers.js ***!
-  \*******************************************************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/styled-components/node_modules/prop-types/factoryWithTypeCheckers.js":
+/*!************************************************************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/styled-components/node_modules/prop-types/factoryWithTypeCheckers.js ***!
+  \************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -32473,11 +32473,11 @@ module.exports = checkPropTypes;
 
 
 
-var ReactIs = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
-var assign = __webpack_require__(/*! object-assign */ "./node_modules/object-assign/index.js");
+var ReactIs = __webpack_require__(/*! react-is */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-is/index.js");
+var assign = __webpack_require__(/*! object-assign */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/object-assign/index.js");
 
-var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "./node_modules/styled-components/node_modules/prop-types/lib/ReactPropTypesSecret.js");
-var checkPropTypes = __webpack_require__(/*! ./checkPropTypes */ "./node_modules/styled-components/node_modules/prop-types/checkPropTypes.js");
+var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/styled-components/node_modules/prop-types/lib/ReactPropTypesSecret.js");
+var checkPropTypes = __webpack_require__(/*! ./checkPropTypes */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/styled-components/node_modules/prop-types/checkPropTypes.js");
 
 var has = Function.call.bind(Object.prototype.hasOwnProperty);
 var printWarning = function() {};
@@ -33053,10 +33053,10 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 
 /***/ }),
 
-/***/ "./node_modules/styled-components/node_modules/prop-types/index.js":
-/*!*************************************************************************!*\
-  !*** ./node_modules/styled-components/node_modules/prop-types/index.js ***!
-  \*************************************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/styled-components/node_modules/prop-types/index.js":
+/*!******************************************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/styled-components/node_modules/prop-types/index.js ***!
+  \******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -33068,21 +33068,21 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
  */
 
 if (true) {
-  var ReactIs = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
+  var ReactIs = __webpack_require__(/*! react-is */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-is/index.js");
 
   // By explicitly using `prop-types` you are opting into new development behavior.
   // http://fb.me/prop-types-in-prod
   var throwOnDirectAccess = true;
-  module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ "./node_modules/styled-components/node_modules/prop-types/factoryWithTypeCheckers.js")(ReactIs.isElement, throwOnDirectAccess);
+  module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/styled-components/node_modules/prop-types/factoryWithTypeCheckers.js")(ReactIs.isElement, throwOnDirectAccess);
 } else {}
 
 
 /***/ }),
 
-/***/ "./node_modules/styled-components/node_modules/prop-types/lib/ReactPropTypesSecret.js":
-/*!********************************************************************************************!*\
-  !*** ./node_modules/styled-components/node_modules/prop-types/lib/ReactPropTypesSecret.js ***!
-  \********************************************************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/styled-components/node_modules/prop-types/lib/ReactPropTypesSecret.js":
+/*!*************************************************************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/styled-components/node_modules/prop-types/lib/ReactPropTypesSecret.js ***!
+  \*************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -33103,10 +33103,10 @@ module.exports = ReactPropTypesSecret;
 
 /***/ }),
 
-/***/ "./node_modules/stylis-rule-sheet/index.js":
-/*!*************************************************!*\
-  !*** ./node_modules/stylis-rule-sheet/index.js ***!
-  \*************************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/stylis-rule-sheet/index.js":
+/*!******************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/stylis-rule-sheet/index.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -33161,10 +33161,10 @@ module.exports = ReactPropTypesSecret;
 
 /***/ }),
 
-/***/ "./node_modules/stylis/stylis.min.js":
-/*!*******************************************!*\
-  !*** ./node_modules/stylis/stylis.min.js ***!
-  \*******************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/stylis/stylis.min.js":
+/*!************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/stylis/stylis.min.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -33173,7 +33173,7 @@ module.exports = ReactPropTypesSecret;
 
 /***/ }),
 
-/***/ "./node_modules/webpack/buildin/global.js":
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/webpack/buildin/global.js":
 /*!***********************************!*\
   !*** (webpack)/buildin/global.js ***!
   \***********************************/
@@ -33204,7 +33204,7 @@ module.exports = g;
 
 /***/ }),
 
-/***/ "./node_modules/webpack/buildin/harmony-module.js":
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/webpack/buildin/harmony-module.js":
 /*!*******************************************!*\
   !*** (webpack)/buildin/harmony-module.js ***!
   \*******************************************/
@@ -33239,27 +33239,10 @@ module.exports = function(originalModule) {
 
 /***/ }),
 
-/***/ "./src/DeckLists.tsx":
-/*!***************************!*\
-  !*** ./src/DeckLists.tsx ***!
-  \***************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.testDeckString1 = "\n4 Merfolk Trickster (DAR) 56\n3 Mist-Cloaked Herald (RIX) 43\n4 Pteramander (RNA) 47\n4 Siren Stormtamer (XLN) 79\n4 Tempest Djinn (DAR) 68\n3 Chart a Course (XLN) 48\n1 Blink of an Eye (DAR) 46\n2 Dive Down (XLN) 53\n1 Essence Capture (RNA) 37\n4 Opt (XLN) 65\n3 Spell Pierce (XLN) 81\n4 Wizard's Retort (DAR) 75\n4 Curious Obsession (RIX) 35\n19 Island (XLN) 265\n\n2 Deep Freeze (DAR) 50\n2 Entrancing Melody (XLN) 55\n2 Exclusion Mage (M19) 55\n2 Faerie Duelist (RNA) 39\n3 Negate (RIX) 44\n1 Search for Azcanta (XLN) 74\n3 Surge Mare (M19) 77\n";
-exports.testDeckString2 = "\n4 Lightning Strike (XLN) 149\n20 Mountain (RIX) 195\n4 Shock (M19) 156\n4 Viashino Pyromancer (M19) 166\n4 Experimental Frenzy (GRN) 99\n4 Runaway Steam-Kin (GRN) 115\n4 Light Up the Stage (RNA) 107\n4 Skewer the Critics (RNA) 115\n4 Spear Spewer (RNA) 117\n4 Ghitu Lavarunner (DAR) 127\n4 Goblin Chainwhirler (DAR) 129\n";
-exports.testDeckString3 = "\n4 Viashino Pyromancer (M19) 166\n4 Shock (M19) 156\n4 Fanatical Firebrand (RIX) 101\n4 Ghitu Lavarunner (DAR) 127\n4 Goblin Chainwhirler (DAR) 129\n4 Light Up the Stage (RNA) 107\n4 Wizard's Lightning (DAR) 152\n4 Skewer the Critics (RNA) 115\n1 Lava Coil (GRN) 108\n3 Experimental Frenzy (GRN) 99\n4 Lightning Strike (XLN) 149\n1 Legion Warboss\n19 Mountain (M19) 275\n";
-
-
-/***/ }),
-
-/***/ "./src/MtgaCollection.tsx":
-/*!********************************!*\
-  !*** ./src/MtgaCollection.tsx ***!
-  \********************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/MtgaCollection.tsx":
+/*!*************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/MtgaCollection.tsx ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -33333,17 +33316,17 @@ exports.useMtgaCollectionReducer = useMtgaCollectionReducer;
 
 /***/ }),
 
-/***/ "./src/MtgaDeckListParser.tsx":
-/*!************************************!*\
-  !*** ./src/MtgaDeckListParser.tsx ***!
-  \************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/MtgaDeckListParser.tsx":
+/*!*****************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/MtgaDeckListParser.tsx ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var decoder_1 = __webpack_require__(/*! ./arena-log-tracker/decoder */ "./src/arena-log-tracker/decoder.ts");
+var database_1 = __webpack_require__(/*! ./arena-log-tracker/database */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/arena-log-tracker/database.ts");
 function parseDeckList(DeckString) {
     var _a = DeckString.trim().split(/\r?\n\s*\r?\n/g), main = _a[0], side = _a[1];
     var mainlist = main.split(/\r?\n/g).map(function (x) { return x.trim(); }).map(function (line) {
@@ -33359,8 +33342,8 @@ function parseDeckList(DeckString) {
         var _a;
         return (_a = {}, _a[x[1]] = null, _a);
     })));
-    for (var cardid in decoder_1.CardDatabase) {
-        var info = decoder_1.CardDatabase[cardid];
+    for (var cardid in database_1.CardDatabase) {
+        var info = database_1.CardDatabase[cardid];
         if (NameToId[info.name] === null)
             NameToId[info.name] = cardid;
     }
@@ -33376,10 +33359,10 @@ exports.parseDeckList = parseDeckList;
 
 /***/ }),
 
-/***/ "./src/MtgaLogWatcher.tsx":
-/*!********************************!*\
-  !*** ./src/MtgaLogWatcher.tsx ***!
-  \********************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/MtgaLogWatcher.tsx":
+/*!*************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/MtgaLogWatcher.tsx ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -33397,9 +33380,9 @@ var __assign = (this && this.__assign) || function () {
     return __assign.apply(this, arguments);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-var react_1 = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-var decoder_1 = __webpack_require__(/*! ./arena-log-tracker/decoder */ "./src/arena-log-tracker/decoder.ts");
+var React = __webpack_require__(/*! react */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react/index.js");
+var react_1 = __webpack_require__(/*! react */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react/index.js");
+var decoder_1 = __webpack_require__(/*! ./arena-log-tracker/decoder */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/arena-log-tracker/decoder.ts");
 function BlobToString(blob) {
     return new Promise(function (resolve) {
         var reader = new FileReader();
@@ -33551,10 +33534,78 @@ function reducer(state, action) {
 
 /***/ }),
 
-/***/ "./src/MtgaShowCollection.tsx":
-/*!************************************!*\
-  !*** ./src/MtgaShowCollection.tsx ***!
-  \************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/MtgaShowCollection.tsx":
+/*!*****************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/MtgaShowCollection.tsx ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __assign = (this && this.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var React = __webpack_require__(/*! react */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react/index.js");
+var database_1 = __webpack_require__(/*! ./arena-log-tracker/database */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/arena-log-tracker/database.ts");
+var react_table_1 = __webpack_require__(/*! react-table */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/es/index.js");
+__webpack_require__(/*! react-table/react-table.css */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/react-table.css");
+var util_1 = __webpack_require__(/*! ./util */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/util.ts");
+function CardsToStats(cards) {
+    var stats = {};
+    for (var card in cards) {
+        var info = database_1.CardDatabase[card];
+        //console.log(cards[card] + " : " + info.name + ' (' + card + ')');
+        var set = info.set;
+        var rar = info.rarity;
+        if (!stats[set])
+            stats[set] = { common: 0, uncommon: 0, rare: 0, mythic: 0, land: 0, token: 0, total: 0 };
+        //stats[set][rar][0] += 1;
+        stats[set][rar] += cards[card];
+        stats[set].total += cards[card];
+    }
+    return stats;
+}
+function StatsToData(sets, columns, dbStats, cardStats) {
+    var data = sets.map(function (set) { return (__assign({ setname: set }, util_1.flattenObjects(columns.map(function (rarity) {
+        var _a;
+        return (_a = {},
+            _a[rarity] = ((cardStats[set] || {})[rarity] || 0) + '/' + dbStats[set][rarity] * 4,
+            _a);
+    })))); });
+    return data;
+}
+function MtgaShowCollection(props) {
+    var totalCards = 0;
+    for (var card in props.collection.cards)
+        totalCards += props.collection.cards[card];
+    var cardStats = CardsToStats(props.collection.cards);
+    var data = StatsToData(database_1.sets, database_1.rarities.concat(['total']), database_1.dbStats, cardStats);
+    return React.createElement(react_table_1.default, { data: data, columns: [
+            { Header: 'Set', accessor: 'setname', width: 200 },
+            { Header: 'Total', accessor: 'total', width: 80 }
+        ].concat(database_1.rarities.map(function (rarity) { return ({
+            Header: rarity.substr(0, 1).toUpperCase(), accessor: rarity, width: 70
+        }); })), showPagination: false, minRows: "0" });
+}
+exports.MtgaShowCollection = MtgaShowCollection;
+
+
+/***/ }),
+
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/MtgaShowDecks.tsx":
+/*!************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/MtgaShowDecks.tsx ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -33576,68 +33627,20 @@ var __assign = (this && this.__assign) || function () {
     return __assign.apply(this, arguments);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-var decoder_1 = __webpack_require__(/*! ./arena-log-tracker/decoder */ "./src/arena-log-tracker/decoder.ts");
-var MtgaDeckListParser_1 = __webpack_require__(/*! ./MtgaDeckListParser */ "./src/MtgaDeckListParser.tsx");
-var DeckLists = __webpack_require__(/*! ./DeckLists */ "./src/DeckLists.tsx");
-var react_table_1 = __webpack_require__(/*! react-table */ "./node_modules/react-table/es/index.js");
-__webpack_require__(/*! react-table/react-table.css */ "./node_modules/react-table/react-table.css");
-var PlayerInfo_1 = __webpack_require__(/*! ./components/PlayerInfo */ "./src/components/PlayerInfo.tsx");
-var themed_components_1 = __webpack_require__(/*! ./themed-components */ "./src/themed-components.ts");
+var React = __webpack_require__(/*! react */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react/index.js");
+var react_1 = __webpack_require__(/*! react */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react/index.js");
+var database_1 = __webpack_require__(/*! ./arena-log-tracker/database */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/arena-log-tracker/database.ts");
+var MtgaDeckListParser_1 = __webpack_require__(/*! ./MtgaDeckListParser */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/MtgaDeckListParser.tsx");
+var react_table_1 = __webpack_require__(/*! react-table */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/es/index.js");
+__webpack_require__(/*! react-table/react-table.css */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-table/react-table.css");
+var themed_components_1 = __webpack_require__(/*! ./themed-components */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/themed-components.ts");
+var util_1 = __webpack_require__(/*! ./util */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/util.ts");
+var usePersistCollectionState_1 = __webpack_require__(/*! ./usePersistCollectionState */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/usePersistCollectionState.tsx");
 var CollectionWrapper = themed_components_1.default.div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n\tgrid-area: collection;\n"], ["\n\tgrid-area: collection;\n"])));
-var rarities = ["common", "uncommon", "rare", "mythic"];
-var sets = [];
-var dbStats = (function () {
-    var ret = {};
-    for (var id in decoder_1.CardDatabase) {
-        if (isNaN(parseInt(id)))
-            continue;
-        var card = decoder_1.CardDatabase[id];
-        var set = card.set;
-        var rarity = card.rarity;
-        if (!set)
-            console.log(card);
-        if (!ret[set]) {
-            ret[set] = { common: 0, uncommon: 0, rare: 0, mythic: 0, land: 0, token: 0, total: 0 };
-            sets.push(set);
-        }
-        ret[set][rarity]++;
-        if (rarities.indexOf(rarity) >= 0)
-            ret[set].total++;
-    }
-    return ret;
-})();
-function CardsToStats(cards) {
-    var stats = {};
-    for (var card in cards) {
-        var info = decoder_1.CardDatabase[card];
-        //console.log(cards[card] + " : " + info.name + ' (' + card + ')');
-        var set = info.set;
-        var rar = info.rarity;
-        if (!stats[set])
-            stats[set] = { common: 0, uncommon: 0, rare: 0, mythic: 0, land: 0, token: 0, total: 0 };
-        //stats[set][rar][0] += 1;
-        stats[set][rar] += cards[card];
-        stats[set].total += cards[card];
-    }
-    return stats;
-}
-function flattenObjects(objlist) {
-    return Object.assign.apply(Object, [{}].concat(objlist));
-}
-function StatsToData(sets, columns, dbStats, cardStats) {
-    var data = sets.map(function (set) { return (__assign({ setname: set }, flattenObjects(columns.map(function (rarity) {
-        var _a;
-        return (_a = {},
-            _a[rarity] = ((cardStats[set] || {})[rarity] || 0) + '/' + dbStats[set][rarity] * 4,
-            _a);
-    })))); });
-    return data;
-}
 function MissingDeckStats(deck, cards) {
     var result = [];
     for (var cardid in deck) {
-        var info = decoder_1.CardDatabase[cardid];
+        var info = database_1.CardDatabase[cardid];
         var need = deck[cardid];
         var owned = cards[cardid] || 0;
         var cardids = [cardid];
@@ -33645,7 +33648,7 @@ function MissingDeckStats(deck, cards) {
             var o = _a[_i];
             owned += (cards[o] || 0);
             cardids.push(o);
-            sets[decoder_1.CardDatabase[o].set + "::" + decoder_1.CardDatabase[o].rarity] = o;
+            database_1.sets[database_1.CardDatabase[o].set + "::" + database_1.CardDatabase[o].rarity] = o;
         }
         if (owned < need && info.rarity != 'land') {
             result.push({
@@ -33661,82 +33664,114 @@ function MissingStatsToData(name, missing) {
     // Sort by set, sort by set + rarity, totals, totals by rarity
     // singleset+multiset combined, singleset+multiset separate line?
     // count as 1 or not
-    return [true, false].map(function (single) {
-        var total = { total: 0, common: 0, uncommon: 0, rare: 0, mythic: 0 };
-        var sets = {};
-        for (var _i = 0, missing_1 = missing; _i < missing_1.length; _i++) {
-            var miss = missing_1[_i];
-            if ((miss.ids.length == 1) != single)
-                continue;
-            var lowestrarity = null;
-            for (var _a = 0, _b = miss.ids; _a < _b.length; _a++) {
-                var cardid = _b[_a];
-                var info = decoder_1.CardDatabase[cardid];
-                var set = info.set;
-                if (!sets[set])
-                    sets[set] = { total: 0, common: 0, uncommon: 0, rare: 0, mythic: 0 };
-                var rarity = info.rarity;
-                var diff_1 = 1;
-                sets[set]['total'] += diff_1;
-                sets[set][rarity] += diff_1;
-                if (!lowestrarity || rarities.indexOf(lowestrarity) > rarities.indexOf(rarity))
-                    lowestrarity = rarity;
+    try {
+        return [true, false].map(function (single) {
+            var total = { total: 0, common: 0, uncommon: 0, rare: 0, mythic: 0 };
+            var sets = {};
+            for (var _i = 0, missing_1 = missing; _i < missing_1.length; _i++) {
+                var miss = missing_1[_i];
+                if ((miss.ids.length == 1) != single)
+                    continue;
+                var lowestrarity = null;
+                for (var _a = 0, _b = miss.ids; _a < _b.length; _a++) {
+                    var cardid = _b[_a];
+                    var info = database_1.CardDatabase[cardid];
+                    var set = info.set;
+                    if (!sets[set])
+                        sets[set] = { total: 0, common: 0, uncommon: 0, rare: 0, mythic: 0 };
+                    var rarity = info.rarity;
+                    var diff_1 = 1;
+                    sets[set]['total'] += diff_1;
+                    sets[set][rarity] += diff_1;
+                    if (!lowestrarity || database_1.rarities.indexOf(lowestrarity) > database_1.rarities.indexOf(rarity))
+                        lowestrarity = rarity;
+                }
+                var diff = miss.count;
+                total['total'] += diff;
+                total[lowestrarity] += diff;
             }
-            var diff = miss.count;
-            total['total'] += diff;
-            total[lowestrarity] += diff;
-        }
-        return {
-            name: name + (single ? '' : '+'),
-            total: total,
-            sets: sets,
-        };
-    });
+            return {
+                name: name,
+                single: single,
+                total: total,
+                sets: sets,
+            };
+        });
+    }
+    catch (e) {
+        console.log("Invalid deck?");
+        console.log(e);
+        return [];
+    }
 }
-function MtgaShowCollection(props) {
-    var totalCards = 0;
-    for (var card in props.collection.cards)
-        totalCards += props.collection.cards[card];
-    var cardStats = CardsToStats(props.collection.cards);
-    var data = StatsToData(sets, rarities.concat(['total']), dbStats, cardStats);
-    var missingData = MissingStatsToData('Mono U', MissingDeckStats(MtgaDeckListParser_1.parseDeckList(DeckLists.testDeckString1), props.collection.cards)).concat(MissingStatsToData('Mono R - Kiln', MissingDeckStats(MtgaDeckListParser_1.parseDeckList(DeckLists.testDeckString2), props.collection.cards)), MissingStatsToData('Mono R - Suicide', MissingDeckStats(MtgaDeckListParser_1.parseDeckList(DeckLists.testDeckString3), props.collection.cards)));
-    var allsets = Object.keys(flattenObjects(missingData.map(function (x) { return x.sets; })));
-    return React.createElement(CollectionWrapper, null,
-        "Cards: ",
-        totalCards,
-        React.createElement(PlayerInfo_1.PlayerInfo, { collection: props.collection }),
-        React.createElement("br", null),
+function MtgaShowDecks(props) {
+    var _a = react_1.useState({}), decklists = _a[0], setDecklists = _a[1];
+    usePersistCollectionState_1.usePersistCollectionState({
+        gapi: props.gapi,
+        filename: 'mtga-labs-decklists.json',
+        collectionState: decklists,
+        setCollectionState: setDecklists,
+    });
+    var deckStats = util_1.objectMap(decklists, function (deck) { return MissingDeckStats(MtgaDeckListParser_1.parseDeckList(deck), props.collection.cards); });
+    var missingData = [].concat.apply([], Object.keys(deckStats)
+        .map(function (name) { return MissingStatsToData(name, deckStats[name]); }));
+    var allsets = Object.keys(util_1.flattenObjects(missingData.map(function (x) { return x.sets; })));
+    var _b = react_1.useState(""), editDeckName = _b[0], setEditDeckName = _b[1];
+    var _c = react_1.useState(""), editDeckList = _c[0], setEditDeckList = _c[1];
+    function addDeck() {
+        if (editDeckName && editDeckList) {
+            setDecklists(function (prev) {
+                var _a;
+                return (__assign({}, prev, (_a = {}, _a[editDeckName] = editDeckList, _a)));
+            });
+        }
+        setEditDeckName("");
+        setEditDeckList("");
+    }
+    ;
+    function editDeck(deckname) {
+        setEditDeckName(deckname);
+        setEditDeckList(decklists[deckname]);
+    }
+    return React.createElement(React.Fragment, null,
+        React.createElement("button", { onClick: addDeck }, "Save deck"),
+        "Name: ",
+        React.createElement("input", { type: "text", value: editDeckName, onChange: function (e) { return setEditDeckName(e.target.value); } }),
+        editDeckName && React.createElement(React.Fragment, null,
+            React.createElement("br", null),
+            "Decklist: (Paste 'magic arena' export from the game or from sites like mtggoldfish.com)",
+            React.createElement("br", null),
+            React.createElement("textarea", { rows: 20, cols: 50, value: editDeckList, onChange: function (e) { return setEditDeckList(e.target.value); } })),
         React.createElement(react_table_1.default, { data: missingData, columns: [
-                { Header: 'Name', accessor: 'name', width: 200 },
+                { Header: 'Name', id: 'deckname', width: 200, accessor: function (row) { return React.createElement(React.Fragment, null,
+                        row.name,
+                        " ",
+                        row.single
+                            ? React.createElement("span", { onClick: function () { return editDeck(row.name); }, style: { color: "blue", "text-decoration": "underline" } }, "edit")
+                            : "(multiset)"); } },
                 { Header: 'Totals', columns: [
                         { Header: '*', accessor: 'total.total', width: 30 }
-                    ].concat(rarities.map(function (rarity) { return ({
+                    ].concat(database_1.rarities.map(function (rarity) { return ({
                         Header: rarity.substr(0, 1).toUpperCase(), accessor: 'total.' + rarity, width: 30
                     }); })) }
             ].concat(allsets.map(function (set) { return ({
                 Header: set, columns: [
                     { Header: '', accessor: function () { return ''; }, id: 'spacer->' + set, width: 20 }
-                ].concat(rarities.map(function (rarity) { return ({
+                ].concat(database_1.rarities.map(function (rarity) { return ({
                     Header: rarity.substr(0, 1).toUpperCase(), accessor: function (row) { return row.sets[set] ? row.sets[set][rarity] : '-'; }, width: 30, id: rarity + '->' + set
                 }); })),
-            }); })), showPagination: false, minRows: "0" }),
-        React.createElement(react_table_1.default, { data: data, columns: [
-                { Header: 'Set', accessor: 'setname', width: 200 },
-                { Header: 'Total', accessor: 'total', width: 80 }
-            ].concat(rarities.map(function (rarity) { return ({
-                Header: rarity.substr(0, 1).toUpperCase(), accessor: rarity, width: 70
             }); })), showPagination: false, minRows: "0" }));
 }
-exports.MtgaShowCollection = MtgaShowCollection;
+exports.MtgaShowDecks = MtgaShowDecks;
 var templateObject_1;
 
 
 /***/ }),
 
-/***/ "./src/app.tsx":
-/*!*********************!*\
-  !*** ./src/app.tsx ***!
-  \*********************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/app.tsx":
+/*!**************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/app.tsx ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -33747,57 +33782,110 @@ var __makeTemplateObject = (this && this.__makeTemplateObject) || function (cook
     return cooked;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-var react_1 = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-var MtgaLogWatcher_1 = __webpack_require__(/*! ./MtgaLogWatcher */ "./src/MtgaLogWatcher.tsx");
-var MtgaShowCollection_1 = __webpack_require__(/*! ./MtgaShowCollection */ "./src/MtgaShowCollection.tsx");
-var MtgaCollection_1 = __webpack_require__(/*! ./MtgaCollection */ "./src/MtgaCollection.tsx");
-var usePersistCollectionState_1 = __webpack_require__(/*! ./usePersistCollectionState */ "./src/usePersistCollectionState.tsx");
-var themed_components_1 = __webpack_require__(/*! ./themed-components */ "./src/themed-components.ts");
-var theme_1 = __webpack_require__(/*! ./theme */ "./src/theme.ts");
+var React = __webpack_require__(/*! react */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react/index.js");
+var react_1 = __webpack_require__(/*! react */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react/index.js");
+var MtgaLogWatcher_1 = __webpack_require__(/*! ./MtgaLogWatcher */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/MtgaLogWatcher.tsx");
+var MtgaShowCollection_1 = __webpack_require__(/*! ./MtgaShowCollection */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/MtgaShowCollection.tsx");
+var MtgaShowDecks_1 = __webpack_require__(/*! ./MtgaShowDecks */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/MtgaShowDecks.tsx");
+var PlayerInfo_1 = __webpack_require__(/*! ./components/PlayerInfo */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/components/PlayerInfo.tsx");
+var MtgaCollection_1 = __webpack_require__(/*! ./MtgaCollection */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/MtgaCollection.tsx");
+var usePersistCollectionState_1 = __webpack_require__(/*! ./usePersistCollectionState */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/usePersistCollectionState.tsx");
+var storage_1 = __webpack_require__(/*! ./persistent-storage/storage */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/persistent-storage/storage.tsx");
+var themed_components_1 = __webpack_require__(/*! ./themed-components */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/themed-components.ts");
+var theme_1 = __webpack_require__(/*! ./theme */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/theme.ts");
 var CollectionManager = themed_components_1.default.div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n\tdisplay: grid;\n\tgrid-area: header;\n\tgrid-template-columns: auto 1fr;\n\tbox-shadow: ", ";\n\tgrid-gap: ", ";\n\tpadding: ", ";\t\n"], ["\n\tdisplay: grid;\n\tgrid-area: header;\n\tgrid-template-columns: auto 1fr;\n\tbox-shadow: ", ";\n\tgrid-gap: ", ";\n\tpadding: ", ";\t\n"])), function (p) { return p.theme.shadows.subtle; }, function (p) { return p.theme.margins.large; }, function (p) { return p.theme.margins.small; });
 var SaveInfo = themed_components_1.default.div(templateObject_2 || (templateObject_2 = __makeTemplateObject(["\n\tdisplay: grid;\n\tgrid-template-columns: 90px;\n\tgrid-gap: ", ";\n\tborder-right: 1px solid grey;\n"], ["\n\tdisplay: grid;\n\tgrid-template-columns: 90px;\n\tgrid-gap: ", ";\n\tborder-right: 1px solid grey;\n"])), function (p) { return p.theme.margins.small; });
 var Application = themed_components_1.default.div(templateObject_3 || (templateObject_3 = __makeTemplateObject(["\n\tdisplay: grid;\n\tgrid-template: 'header header header'\n\t\t'collection collection collection'; \n\tgrid-template-rows: auto 1fr;\n\tgrid-gap: ", ";\n"], ["\n\tdisplay: grid;\n\tgrid-template: 'header header header'\n\t\t'collection collection collection'; \n\tgrid-template-rows: auto 1fr;\n\tgrid-gap: ", ";\n"])), function (p) { return p.theme.margins.small; });
+var CollectionWrapper = themed_components_1.default.div(templateObject_4 || (templateObject_4 = __makeTemplateObject(["\n\tgrid-area: collection;\n"], ["\n\tgrid-area: collection;\n"])));
 function App(props) {
+    var gapi = storage_1.useGoogleApi();
+    react_1.useEffect(function () {
+        if (gapi.state == 'out')
+            gapi.signin();
+    }, [gapi.state]);
     var _a = react_1.useReducer(MtgaCollection_1.useMtgaCollectionReducer, new MtgaCollection_1.mtgaCollectionState()), collection = _a[0], collectionDispatch = _a[1];
-    var state = usePersistCollectionState_1.usePersistCollectionState({
+    usePersistCollectionState_1.usePersistCollectionState({
+        gapi: gapi,
+        filename: 'mtga-labs-collection.json',
         collectionState: collection,
         setCollectionState: function (json) { return collectionDispatch({ label: "mtga-labs-Inventory", json: json }); },
-    })[0];
+    });
     return React.createElement(themed_components_1.ThemeProvider, { theme: theme_1.default },
         React.createElement(Application, null,
             React.createElement(CollectionManager, null,
                 React.createElement(SaveInfo, null,
-                    React.createElement("span", null, state)),
+                    React.createElement("span", null, gapi.state)),
                 React.createElement(MtgaLogWatcher_1.MtgaLogWatcher, { onLogEntry: collectionDispatch })),
-            React.createElement(MtgaShowCollection_1.MtgaShowCollection, { collection: collection })));
+            React.createElement(CollectionWrapper, null,
+                React.createElement(PlayerInfo_1.PlayerInfo, { collection: collection }),
+                React.createElement("br", null),
+                React.createElement(MtgaShowDecks_1.MtgaShowDecks, { collection: collection, gapi: gapi }),
+                React.createElement(MtgaShowCollection_1.MtgaShowCollection, { collection: collection }))));
 }
 exports.App = App;
-var templateObject_1, templateObject_2, templateObject_3;
+var templateObject_1, templateObject_2, templateObject_3, templateObject_4;
 
 
 /***/ }),
 
-/***/ "./src/arena-log-tracker/decoder.ts":
-/*!******************************************!*\
-  !*** ./src/arena-log-tracker/decoder.ts ***!
-  \******************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/arena-log-tracker/database.ts":
+/*!************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/arena-log-tracker/database.ts ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.ArenaLogDecoder = __webpack_require__(/*! ../../extern/MTG-Arena-Tool/window_background/arena-log-decoder/arena-log-decoder */ "./extern/MTG-Arena-Tool/window_background/arena-log-decoder/arena-log-decoder.js");
-exports.CardDatabase = __webpack_require__(/*! ../../extern/MTG-Arena-Tool/shared/database.json */ "./extern/MTG-Arena-Tool/shared/database.json");
+var _a;
+exports.CardDatabase = __webpack_require__(/*! ../../extern/MTG-Arena-Tool/shared/database.json */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/extern/MTG-Arena-Tool/shared/database.json");
+exports.rarities = ["common", "uncommon", "rare", "mythic"];
+exports.sets = (_a = (function () {
+    var sets = [];
+    var ret = {};
+    for (var id in exports.CardDatabase) {
+        if (isNaN(parseInt(id)))
+            continue;
+        var card = exports.CardDatabase[id];
+        var set = card.set;
+        var rarity = card.rarity;
+        if (!set)
+            console.log(card);
+        if (!ret[set]) {
+            ret[set] = { common: 0, uncommon: 0, rare: 0, mythic: 0, land: 0, token: 0, total: 0 };
+            sets.push(set);
+        }
+        ret[set][rarity]++;
+        if (exports.rarities.indexOf(rarity) >= 0)
+            ret[set].total++;
+    }
+    return { sets: sets, dbStats: ret };
+})(), _a.sets), exports.dbStats = _a.dbStats;
 
 
 /***/ }),
 
-/***/ "./src/components/CardRaritySummary.tsx":
-/*!**********************************************!*\
-  !*** ./src/components/CardRaritySummary.tsx ***!
-  \**********************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/arena-log-tracker/decoder.ts":
+/*!***********************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/arena-log-tracker/decoder.ts ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ArenaLogDecoder = __webpack_require__(/*! ../../extern/MTG-Arena-Tool/window_background/arena-log-decoder/arena-log-decoder */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/extern/MTG-Arena-Tool/window_background/arena-log-decoder/arena-log-decoder.js");
+// https://github.com/Manuel-777/MTG-Arena-Tool/raw/7e1c6c6eb505032998c1ee378346f8bfb54e879f/shared/database.js
+
+
+/***/ }),
+
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/components/CardRaritySummary.tsx":
+/*!***************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/components/CardRaritySummary.tsx ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -33808,8 +33896,8 @@ var __makeTemplateObject = (this && this.__makeTemplateObject) || function (cook
     return cooked;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-var themed_components_1 = __webpack_require__(/*! ../themed-components */ "./src/themed-components.ts");
+var React = __webpack_require__(/*! react */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react/index.js");
+var themed_components_1 = __webpack_require__(/*! ../themed-components */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/themed-components.ts");
 var CardRarities = themed_components_1.default.div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n"], ["\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n"])));
 var CardCount = themed_components_1.default.div(templateObject_2 || (templateObject_2 = __makeTemplateObject(["\n    color: white;\n    padding: ", "\n"], ["\n    color: white;\n    padding: ", "\n"])), function (p) { return p.theme.margins.small; });
 var CommonCard = themed_components_1.default(CardCount)(templateObject_3 || (templateObject_3 = __makeTemplateObject(["\n    background: ", ";\n"], ["\n    background: ", ";\n"])), function (p) { return p.theme.colors.common; });
@@ -33838,10 +33926,10 @@ var templateObject_1, templateObject_2, templateObject_3, templateObject_4, temp
 
 /***/ }),
 
-/***/ "./src/components/PlayerInfo.tsx":
-/*!***************************************!*\
-  !*** ./src/components/PlayerInfo.tsx ***!
-  \***************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/components/PlayerInfo.tsx":
+/*!********************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/components/PlayerInfo.tsx ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -33852,27 +33940,34 @@ var __makeTemplateObject = (this && this.__makeTemplateObject) || function (cook
     return cooked;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-var themed_components_1 = __webpack_require__(/*! ../themed-components */ "./src/themed-components.ts");
-var CardRaritySummary_1 = __webpack_require__(/*! ./CardRaritySummary */ "./src/components/CardRaritySummary.tsx");
-var PlayerInfoWrapper = themed_components_1.default.div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    display: grid;\n    grid-template-columns: 1fr 2fr;\n    grid-gap: 20px;\n"], ["\n    display: grid;\n    grid-template-columns: 1fr 2fr;\n    grid-gap: 20px;\n"])));
-var Currencies = themed_components_1.default.div(templateObject_2 || (templateObject_2 = __makeTemplateObject(["\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n"], ["\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n"])));
+var React = __webpack_require__(/*! react */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react/index.js");
+var themed_components_1 = __webpack_require__(/*! ../themed-components */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/themed-components.ts");
+var CardRaritySummary_1 = __webpack_require__(/*! ./CardRaritySummary */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/components/CardRaritySummary.tsx");
+var PlayerInfoWrapper = themed_components_1.default.div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n\tdisplay: grid;\n\tgrid-template-columns: 1fr 2fr;\n\tgrid-gap: 20px;\n"], ["\n\tdisplay: grid;\n\tgrid-template-columns: 1fr 2fr;\n\tgrid-gap: 20px;\n"])));
+var Currencies = themed_components_1.default.div(templateObject_2 || (templateObject_2 = __makeTemplateObject(["\n\tdisplay: grid;\n\tgrid-template-columns: 1fr 1fr;\n"], ["\n\tdisplay: grid;\n\tgrid-template-columns: 1fr 1fr;\n"])));
 function PlayerInfo(_a) {
     var collection = _a.collection;
     var gold = collection.gold, gems = collection.gems, wcCommon = collection.wcCommon, wcUncommon = collection.wcUncommon, wcRare = collection.wcRare, wcMythic = collection.wcMythic, vaultProgress = collection.vaultProgress;
+    var totalCards = 0;
+    for (var card in collection.cards)
+        totalCards += collection.cards[card];
     return (React.createElement(PlayerInfoWrapper, null,
         React.createElement(Currencies, null,
+            React.createElement("div", null,
+                "Cards: ",
+                totalCards),
+            "     ",
+            React.createElement("div", null,
+                "Vault: ",
+                vaultProgress,
+                "%"),
+            " ",
             React.createElement("div", null,
                 "Gold: ",
                 gold),
             React.createElement("div", null,
                 "Gems: ",
-                gems),
-            React.createElement("div", null,
-                "Vault: ",
-                vaultProgress,
-                "%"),
-            " "),
+                gems)),
         React.createElement(CardRaritySummary_1.CardRaritySummary, { common: wcCommon, uncommon: wcUncommon, rare: wcRare, mythic: wcMythic })));
 }
 exports.PlayerInfo = PlayerInfo;
@@ -33881,19 +33976,19 @@ var templateObject_1, templateObject_2;
 
 /***/ }),
 
-/***/ "./src/index.tsx":
-/*!***********************!*\
-  !*** ./src/index.tsx ***!
-  \***********************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/index.tsx":
+/*!****************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/index.tsx ***!
+  \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-var ReactDOM = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-var app_1 = __webpack_require__(/*! ./app */ "./src/app.tsx");
+var React = __webpack_require__(/*! react */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react/index.js");
+var ReactDOM = __webpack_require__(/*! react-dom */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react-dom/index.js");
+var app_1 = __webpack_require__(/*! ./app */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/app.tsx");
 var div = document.createElement("div");
 document.body.style.margin = "0";
 document.body.appendChild(div);
@@ -33902,26 +33997,26 @@ ReactDOM.render(React.createElement(app_1.App, null), div);
 
 /***/ }),
 
-/***/ "./src/persistent-storage/storage.tsx":
-/*!********************************************!*\
-  !*** ./src/persistent-storage/storage.tsx ***!
-  \********************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/persistent-storage/storage.tsx":
+/*!*************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/persistent-storage/storage.tsx ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var useGoogleApi_1 = __webpack_require__(/*! ../../extern/gpad/src/hooks/useGoogleApi */ "./extern/gpad/src/hooks/useGoogleApi.ts");
+var useGoogleApi_1 = __webpack_require__(/*! ../../extern/gpad/src/hooks/useGoogleApi */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/extern/gpad/src/hooks/useGoogleApi.ts");
 exports.useGoogleApi = useGoogleApi_1.useGoogleApi;
 
 
 /***/ }),
 
-/***/ "./src/theme.ts":
-/*!**********************!*\
-  !*** ./src/theme.ts ***!
-  \**********************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/theme.ts":
+/*!***************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/theme.ts ***!
+  \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -33948,17 +34043,17 @@ exports.default = {
 
 /***/ }),
 
-/***/ "./src/themed-components.ts":
-/*!**********************************!*\
-  !*** ./src/themed-components.ts ***!
-  \**********************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/themed-components.ts":
+/*!***************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/themed-components.ts ***!
+  \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var styledComponents = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+var styledComponents = __webpack_require__(/*! styled-components */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/styled-components/dist/styled-components.browser.esm.js");
 var _a = styledComponents, styled = _a.default, css = _a.css, keyframes = _a.keyframes, ThemeProvider = _a.ThemeProvider;
 exports.css = css;
 exports.keyframes = keyframes;
@@ -33968,10 +34063,10 @@ exports.default = styled;
 
 /***/ }),
 
-/***/ "./src/usePersistCollectionState.tsx":
-/*!*******************************************!*\
-  !*** ./src/usePersistCollectionState.tsx ***!
-  \*******************************************/
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/usePersistCollectionState.tsx":
+/*!************************************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/usePersistCollectionState.tsx ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -34013,20 +34108,19 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var react_1 = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-var storage_1 = __webpack_require__(/*! ./persistent-storage/storage */ "./src/persistent-storage/storage.tsx");
-function doInitCollectionFile(gapi) {
+var react_1 = __webpack_require__(/*! react */ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/node_modules/react/index.js");
+function doInitCollectionFile(gapi, filename) {
     return __awaiter(this, void 0, void 0, function () {
         var fileid, files, create, content;
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
                     fileid = "";
-                    return [4 /*yield*/, gapi.queryFileList("'root' in parents and trashed = false and title = 'mtga-labs-collection.json'")];
+                    return [4 /*yield*/, gapi.queryFileList("'root' in parents and trashed = false and title = '" + filename + "'")];
                 case 1:
                     files = _a.sent();
                     if (!(files.length == 0)) return [3 /*break*/, 3];
-                    return [4 /*yield*/, gapi.createFile('mtga-labs-collection.json', '{}')];
+                    return [4 /*yield*/, gapi.createFile(filename, '{}')];
                 case 2:
                     create = _a.sent();
                     fileid = create.id;
@@ -34047,19 +34141,13 @@ function doInitCollectionFile(gapi) {
     });
 }
 function usePersistCollectionState(_a) {
-    var collectionState = _a.collectionState, setCollectionState = _a.setCollectionState;
-    var gapi = storage_1.useGoogleApi();
+    var gapi = _a.gapi, filename = _a.filename, collectionState = _a.collectionState, setCollectionState = _a.setCollectionState;
     var _b = react_1.useState(null), promise = _b[0], setPromise = _b[1];
     var _c = react_1.useState(null), fileId = _c[0], setFileId = _c[1];
     var _d = react_1.useState({}), savedState = _d[0], setSavedState = _d[1];
     react_1.useEffect(function () {
-        console.log('effect:' + gapi.state);
-        if (gapi.state == 'out') {
-            console.log('signin');
-            gapi.signin();
-        }
         if (gapi.state == 'in' && !promise) {
-            setPromise(doInitCollectionFile(gapi).then(function (_a) {
+            setPromise(doInitCollectionFile(gapi, filename).then(function (_a) {
                 var id = _a[0], content = _a[1];
                 setCollectionState(content);
                 setSavedState(content);
@@ -34096,9 +34184,33 @@ function usePersistCollectionState(_a) {
         }, 15000);
         return function () { return window.clearInterval(id); };
     }, [collectionState, savedState]);
-    return [gapi.state, saveCollectionState];
 }
 exports.usePersistCollectionState = usePersistCollectionState;
+
+
+/***/ }),
+
+/***/ "../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/util.ts":
+/*!**************************************************************!*\
+  !*** c:/Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/util.ts ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+function flattenObjects(objlist) {
+    return Object.assign.apply(Object, [{}].concat(objlist));
+}
+exports.flattenObjects = flattenObjects;
+function objectMap(object, mapFn) {
+    return Object.keys(object).reduce(function (result, key) {
+        result[key] = mapFn(object[key]);
+        return result;
+    }, {});
+}
+exports.objectMap = objectMap;
 
 
 /***/ }),
@@ -34110,7 +34222,7 @@ exports.usePersistCollectionState = usePersistCollectionState;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./src/index.tsx */"./src/index.tsx");
+module.exports = __webpack_require__(/*! ./src/index.tsx */"../../../../Disks/2TB-Mount/Stuff/Projects/MTGA/git/src/index.tsx");
 
 
 /***/ })
