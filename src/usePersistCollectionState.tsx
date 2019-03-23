@@ -2,11 +2,11 @@ import { useState, useEffect, useReducer } from "react";
 
 import { useGoogleApi } from "./persistent-storage/storage";
 
-async function doInitCollectionFile(gapi) {
+async function doInitCollectionFile(gapi, filename) {
 	let fileid = "";
-	let files = await gapi.queryFileList("'root' in parents and trashed = false and title = 'mtga-labs-collection.json'");
+	let files = await gapi.queryFileList("'root' in parents and trashed = false and title = '" + filename + "'");
 	if (files.length == 0) {
-		let create: { id: string } = await gapi.createFile('mtga-labs-collection.json', '{}');
+		let create: { id: string } = await gapi.createFile(filename, '{}');
 		fileid = create.id;
 	} else if (files.length == 1) {
 		fileid = files[0].id;
@@ -17,20 +17,14 @@ async function doInitCollectionFile(gapi) {
 	return [ fileid, JSON.parse(content.body) ];
 }
 
-export function usePersistCollectionState({ collectionState, setCollectionState }): [string, (state: any) => void] {
-	let gapi = useGoogleApi();
+export function usePersistCollectionState({ gapi, filename, collectionState, setCollectionState }): void {
 	let [ promise, setPromise ] = useState(null);
 	let [ fileId, setFileId ] = useState(null);
 	let [ savedState, setSavedState ] = useState({});
 
 	useEffect(() => {
-		console.log('effect:' + gapi.state);
-		if (gapi.state == 'out') {
-			console.log('signin');
-			gapi.signin();
-		}
 		if (gapi.state == 'in' && !promise) {
-			setPromise(doInitCollectionFile(gapi).then(([ id, content ]) => {
+			setPromise(doInitCollectionFile(gapi, filename).then(([ id, content ]) => {
 				setCollectionState(content);
 				setSavedState(content);
 				setFileId(id);
@@ -56,7 +50,5 @@ export function usePersistCollectionState({ collectionState, setCollectionState 
 			}
 		}, 15000);
 		return () => window.clearInterval(id);
-	}, [ collectionState, savedState ])
-
-	return [ gapi.state, saveCollectionState ];
+	}, [ collectionState, savedState ]);
 }

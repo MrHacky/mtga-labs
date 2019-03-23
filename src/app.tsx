@@ -8,6 +8,7 @@ import { MtgaShowDecks } from "./MtgaShowDecks";
 import { PlayerInfo } from "./components/PlayerInfo";
 import { useMtgaCollectionReducer, mtgaCollectionState } from "./MtgaCollection"
 import { usePersistCollectionState } from "./usePersistCollectionState";
+import { useGoogleApi } from "./persistent-storage/storage";
 import styled, { ThemeProvider } from "./themed-components";
 import theme from "./theme";
 
@@ -41,8 +42,15 @@ const CollectionWrapper = styled.div`
 `;
 
 export function App(props: {  }) {
+	let gapi = useGoogleApi();
+	useEffect(() => {
+		if (gapi.state == 'out')
+			gapi.signin();
+	}, [ gapi.state ]);
 	const [ collection, collectionDispatch ] = useReducer(useMtgaCollectionReducer, new mtgaCollectionState());
-	const [ state ] = usePersistCollectionState({
+	usePersistCollectionState({
+		gapi,
+		filename: 'mtga-labs-collection.json',
 		collectionState: collection,
 		setCollectionState: json => collectionDispatch({ label: "mtga-labs-Inventory", json }),
 	});
@@ -51,7 +59,7 @@ export function App(props: {  }) {
 		<Application>
 			<CollectionManager>
 				<SaveInfo>
-					<span>{state}</span>
+					<span>{gapi.state}</span>
 				</SaveInfo>
 				<MtgaLogWatcher onLogEntry={collectionDispatch}/>
 			</CollectionManager>
