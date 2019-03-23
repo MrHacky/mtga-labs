@@ -1,7 +1,7 @@
 import * as React from "react";
 
 import { mtgaCollectionState } from "./MtgaCollection"
-import { CardDatabase } from "./arena-log-tracker/decoder";
+import { CardDatabase } from "./arena-log-tracker/database";
 import { parseDeckList } from "./MtgaDeckListParser";
 import * as DeckLists from "./DeckLists";
 import ReactTable from 'react-table';

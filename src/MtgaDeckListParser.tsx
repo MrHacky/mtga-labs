@@ -1,4 +1,4 @@
-import { CardDatabase } from "./arena-log-tracker/decoder";
+import { CardDatabase } from "./arena-log-tracker/database";
 
 export function parseDeckList(DeckString: string) {
 	const [ main, side ] = DeckString.trim().split(/\r?\n\s*\r?\n/g);
