@@ -65,7 +65,8 @@ export function App(props: {  }) {
 			</CollectionManager>
 			<CollectionWrapper>
 				<PlayerInfo collection={collection} />
-				<MtgaShowDecks collection={collection}/>
+				<br/>
+				<MtgaShowDecks collection={collection} gapi={gapi}/>
 				<MtgaShowCollection collection={collection}/>
 			</CollectionWrapper>
 		</Application>

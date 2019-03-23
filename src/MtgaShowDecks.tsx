@@ -1,13 +1,15 @@
 import * as React from "react";
 
+import { useState } from "react";
 import { mtgaCollectionState } from "./MtgaCollection"
 import { CardDatabase, sets, rarities, dbStats } from "./arena-log-tracker/database";
 import { parseDeckList } from "./MtgaDeckListParser";
-import * as DeckLists from "./DeckLists";
 import ReactTable from 'react-table';
 import 'react-table/react-table.css';
 import styled from "./themed-components";
-import { flattenObjects } from "./util";
+import { flattenObjects, objectMap } from "./util";
+import { GoogleStorageApi } from "./persistent-storage/storage";
+import { usePersistCollectionState } from "./usePersistCollectionState";
 
 const CollectionWrapper = styled.div`
 	grid-area: collection;
@@ -67,7 +69,8 @@ function MissingStatsToData(name, missing) {
 			}
 
 			return {
-				name: name + (single ? '' : '+'),
+				name,
+				single,
 				total,
 				sets,
 			};
@@ -79,36 +82,77 @@ function MissingStatsToData(name, missing) {
 	}
 }
 
-export function MtgaShowDecks(props: { collection: mtgaCollectionState }) {
-	let missingData = [
-		...MissingStatsToData('Mono U'          , MissingDeckStats(parseDeckList(DeckLists.testDeckString1), props.collection.cards)),
-		...MissingStatsToData('Mono W'          , MissingDeckStats(parseDeckList(DeckLists.testDeckString4), props.collection.cards)),
-		...MissingStatsToData('Mono R - Kiln'   , MissingDeckStats(parseDeckList(DeckLists.testDeckString2), props.collection.cards)),
-		...MissingStatsToData('Mono R - Suicide', MissingDeckStats(parseDeckList(DeckLists.testDeckString3), props.collection.cards)),
-	];
+export function MtgaShowDecks(props: { collection: mtgaCollectionState, gapi: GoogleStorageApi }) {
+	const [ decklists, setDecklists ] = useState({});
+	usePersistCollectionState({
+		gapi: props.gapi,
+		filename: 'mtga-labs-decklists.json',
+		collectionState: decklists,
+		setCollectionState: setDecklists,
+	});
+
+	let deckStats = objectMap(decklists, (deck) => MissingDeckStats(parseDeckList(deck), props.collection.cards));
+	let missingData = [].concat(...Object.keys(deckStats)
+		.map(name => MissingStatsToData(name, deckStats[name]))
+	);
+
 	let allsets = Object.keys(flattenObjects(missingData.map(x => x.sets)));
 
-	return <ReactTable
-		data={missingData}
-		columns={[
-			{ Header: 'Name', accessor: 'name', width: 200 },
-			{ Header: 'Totals', columns: [
-				{ Header: '*', accessor: 'total.total', width: 30 },
-				...rarities.map(rarity => ({
-					Header: rarity.substr(0, 1).toUpperCase(), accessor: 'total.' + rarity, width: 30
-				})),
-			]},
-			...allsets.map(set => ({
-				Header: set, columns: [
-					{ Header: '', accessor: () => '', id: 'spacer->' + set, width: 20 },
-					//{ Header: '*', accessor: row => row.sets[set].total, id: 'total->' + set, width: 30 },
+	let [ editDeckName, setEditDeckName ] = useState("");
+	let [ editDeckList, setEditDeckList ] = useState("");
+
+	function addDeck() {
+		if (editDeckName && editDeckList) {
+			setDecklists(prev => ({
+				...prev,
+				[editDeckName]: editDeckList,
+			}));
+		}
+		setEditDeckName("");
+		setEditDeckList("");
+	};
+
+	function editDeck(deckname) {
+		setEditDeckName(deckname);
+		setEditDeckList(decklists[deckname]);
+	}
+
+	return <>
+		<button onClick={addDeck}>Save deck</button>
+		Name: <input    type="text" value={editDeckName} onChange={(e) => setEditDeckName(e.target.value)}/>
+		{ editDeckName && <>
+			<br/>
+			Decklist: (Paste 'magic arena' export from the game or from sites like mtggoldfish.com)
+			<br/>
+			<textarea rows={20} cols={50} value={editDeckList} onChange={(e) => setEditDeckList(e.target.value)}/>
+		</>}
+		<ReactTable
+			data={missingData}
+			columns={[
+				{ Header: 'Name', id: 'deckname', width: 200, accessor: row => <>
+					{row.name} {row.single
+						? <span onClick={() => editDeck(row.name)} style={{color: "blue", "text-decoration": "underline"}}>edit</span>
+						: "(multiset)"
+					}
+				</> },
+				{ Header: 'Totals', columns: [
+					{ Header: '*', accessor: 'total.total', width: 30 },
 					...rarities.map(rarity => ({
-						Header: rarity.substr(0, 1).toUpperCase() , accessor: row => row.sets[set] ? row.sets[set][rarity] : '-', width: 30, id: rarity + '->' + set
+						Header: rarity.substr(0, 1).toUpperCase(), accessor: 'total.' + rarity, width: 30
 					})),
-				],
-			})),
-		]}
-		showPagination={false}
-		minRows="0"
-	/>
+				]},
+				...allsets.map(set => ({
+					Header: set, columns: [
+						{ Header: '', accessor: () => '', id: 'spacer->' + set, width: 20 },
+						//{ Header: '*', accessor: row => row.sets[set].total, id: 'total->' + set, width: 30 },
+						...rarities.map(rarity => ({
+							Header: rarity.substr(0, 1).toUpperCase() , accessor: row => row.sets[set] ? row.sets[set][rarity] : '-', width: 30, id: rarity + '->' + set
+						})),
+					],
+				})),
+			]}
+			showPagination={false}
+			minRows="0"
+		/>
+	</>;
 }
