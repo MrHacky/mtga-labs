@@ -4,6 +4,7 @@ import { useState, useEffect, useReducer } from "react";
 
 import { MtgaLogWatcher } from "./MtgaLogWatcher";
 import { MtgaShowCollection } from "./MtgaShowCollection";
+import { MtgaShowDecks } from "./MtgaShowDecks";
 import { useMtgaCollectionReducer, mtgaCollectionState } from "./MtgaCollection"
 import { usePersistCollectionState } from "./usePersistCollectionState";
 import styled, { ThemeProvider } from "./themed-components";
@@ -34,6 +35,10 @@ const Application = styled.div`
 	grid-gap: ${p => p.theme.margins.small};
 `;
 
+const CollectionWrapper = styled.div`
+	grid-area: collection;
+`;
+
 export function App(props: {  }) {
 	const [ collection, collectionDispatch ] = useReducer(useMtgaCollectionReducer, new mtgaCollectionState());
 	const [ state ] = usePersistCollectionState({
@@ -47,9 +52,12 @@ export function App(props: {  }) {
 				<SaveInfo>
 					<span>{state}</span>
 				</SaveInfo>
-				<MtgaLogWatcher onLogEntry={collectionDispatch}></MtgaLogWatcher>
+				<MtgaLogWatcher onLogEntry={collectionDispatch}/>
 			</CollectionManager>
-			<MtgaShowCollection collection={collection}></MtgaShowCollection>
+			<CollectionWrapper>
+				<MtgaShowDecks collection={collection}/>
+				<MtgaShowCollection collection={collection}/>
+			</CollectionWrapper>
 		</Application>
 	</ThemeProvider>
 }
