@@ -1,7 +1,7 @@
 import * as React from "react";
 
 import { mtgaCollectionState } from "./MtgaCollection"
-import { CardDatabase } from "./arena-log-tracker/database";
+import { CardDatabase, sets, rarities, dbStats } from "./arena-log-tracker/database";
 import { parseDeckList } from "./MtgaDeckListParser";
 import * as DeckLists from "./DeckLists";
 import ReactTable from 'react-table';
@@ -12,30 +12,6 @@ import styled from "./themed-components";
 const CollectionWrapper = styled.div`
 	grid-area: collection;
 `;
-
-let rarities = [ "common", "uncommon", "rare", "mythic" ];
-
-let sets = [];
-const dbStats = (() => {
-	let ret = {};
-	for (let id in CardDatabase) {
-		if (isNaN(parseInt(id)))
-			continue;
-		let card = CardDatabase[id];
-		let set = card.set;
-		let rarity = card.rarity;
-		if (!set)
-			console.log(card);
-		if (!ret[set]) {
-			ret[set] = { common: 0, uncommon: 0, rare: 0, mythic: 0, land: 0, token: 0, total: 0 }
-			sets.push(set);
-		}
-		ret[set][rarity]++;
-		if (rarities.indexOf(rarity) >= 0)
-			ret[set].total++;
-	}
-	return ret;
-})();
 
 function CardsToStats(cards) {
 	let stats = {};
