@@ -52,3 +52,18 @@ export const testDeckString3 = `
 1 Legion Warboss
 19 Mountain (M19) 275
 `;
+
+export const testDeckString4 = `
+4 Skymarcher Aspirant (RIX) 21
+18 Plains (XLN) 261
+4 Snubhorn Sentry (RIX) 23
+4 Pride of Conquerors (RIX) 17
+4 Hunted Witness (GRN) 15
+4 Legion's Landing (XLN) 22
+4 History of Benalia (DAR) 21
+4 Conclave Tribunal (GRN) 6
+4 Venerated Loxodon (GRN) 30
+4 Tithe Taker (RNA) 27
+2 Unbreakable Formation (RNA) 29
+4 Dauntless Bodyguard (DAR) 14
+`;

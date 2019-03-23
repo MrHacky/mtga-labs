@@ -138,6 +138,7 @@ export function MtgaShowCollection(props: { collection: mtgaCollectionState }) {
 	let data = StatsToData(sets, [ ...rarities, 'total' ], dbStats, cardStats)
 	let missingData = [
 		...MissingStatsToData('Mono U'          , MissingDeckStats(parseDeckList(DeckLists.testDeckString1), props.collection.cards)),
+		...MissingStatsToData('Mono W'          , MissingDeckStats(parseDeckList(DeckLists.testDeckString4), props.collection.cards)),
 		...MissingStatsToData('Mono R - Kiln'   , MissingDeckStats(parseDeckList(DeckLists.testDeckString2), props.collection.cards)),
 		...MissingStatsToData('Mono R - Suicide', MissingDeckStats(parseDeckList(DeckLists.testDeckString3), props.collection.cards)),
 	];
