@@ -8,6 +8,7 @@ import ReactTable from 'react-table';
 import 'react-table/react-table.css';
 import { PlayerInfo } from "./components/PlayerInfo";
 import styled from "./themed-components";
+import { flattenObjects } from "./util";
 
 const CollectionWrapper = styled.div`
 	grid-area: collection;
@@ -27,10 +28,6 @@ function CardsToStats(cards) {
 		stats[set].total += cards[card];
 	}
 	return stats;
-}
-
-function flattenObjects(objlist) {
-	return Object.assign({}, ...objlist);
 }
 
 function StatsToData(sets, columns, dbStats, cardStats) {
