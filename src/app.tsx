@@ -5,6 +5,7 @@ import { useState, useEffect, useReducer } from "react";
 import { MtgaLogWatcher } from "./MtgaLogWatcher";
 import { MtgaShowCollection } from "./MtgaShowCollection";
 import { MtgaShowDecks } from "./MtgaShowDecks";
+import { PlayerInfo } from "./components/PlayerInfo";
 import { useMtgaCollectionReducer, mtgaCollectionState } from "./MtgaCollection"
 import { usePersistCollectionState } from "./usePersistCollectionState";
 import styled, { ThemeProvider } from "./themed-components";
@@ -55,6 +56,7 @@ export function App(props: {  }) {
 				<MtgaLogWatcher onLogEntry={collectionDispatch}/>
 			</CollectionManager>
 			<CollectionWrapper>
+				<PlayerInfo collection={collection} />
 				<MtgaShowDecks collection={collection}/>
 				<MtgaShowCollection collection={collection}/>
 			</CollectionWrapper>

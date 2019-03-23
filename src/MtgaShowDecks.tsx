@@ -6,7 +6,6 @@ import { parseDeckList } from "./MtgaDeckListParser";
 import * as DeckLists from "./DeckLists";
 import ReactTable from 'react-table';
 import 'react-table/react-table.css';
-import { PlayerInfo } from "./components/PlayerInfo";
 import styled from "./themed-components";
 import { flattenObjects } from "./util";
 
@@ -76,10 +75,6 @@ function MissingStatsToData(name, missing) {
 }
 
 export function MtgaShowDecks(props: { collection: mtgaCollectionState }) {
-	let totalCards = 0;
-	for (let card in props.collection.cards)
-		totalCards += props.collection.cards[card];
-
 	let missingData = [
 		...MissingStatsToData('Mono U'          , MissingDeckStats(parseDeckList(DeckLists.testDeckString1), props.collection.cards)),
 		...MissingStatsToData('Mono W'          , MissingDeckStats(parseDeckList(DeckLists.testDeckString4), props.collection.cards)),
@@ -88,32 +83,27 @@ export function MtgaShowDecks(props: { collection: mtgaCollectionState }) {
 	];
 	let allsets = Object.keys(flattenObjects(missingData.map(x => x.sets)));
 
-	return <>
-		Cards: {totalCards}
-		<PlayerInfo collection={props.collection} />
-		<br/>
-		<ReactTable
-			data={missingData}
-			columns={[
-				{ Header: 'Name', accessor: 'name', width: 200 },
-				{ Header: 'Totals', columns: [
-					{ Header: '*', accessor: 'total.total', width: 30 },
-					...rarities.map(rarity => ({
-						Header: rarity.substr(0, 1).toUpperCase(), accessor: 'total.' + rarity, width: 30
-					})),
-				]},
-				...allsets.map(set => ({
-					Header: set, columns: [
-						{ Header: '', accessor: () => '', id: 'spacer->' + set, width: 20 },
-						//{ Header: '*', accessor: row => row.sets[set].total, id: 'total->' + set, width: 30 },
-						...rarities.map(rarity => ({
-							Header: rarity.substr(0, 1).toUpperCase() , accessor: row => row.sets[set] ? row.sets[set][rarity] : '-', width: 30, id: rarity + '->' + set
-						})),
-					],
+	return <ReactTable
+		data={missingData}
+		columns={[
+			{ Header: 'Name', accessor: 'name', width: 200 },
+			{ Header: 'Totals', columns: [
+				{ Header: '*', accessor: 'total.total', width: 30 },
+				...rarities.map(rarity => ({
+					Header: rarity.substr(0, 1).toUpperCase(), accessor: 'total.' + rarity, width: 30
 				})),
-			]}
-			showPagination={false}
-			minRows="0"
-		/>
-	</>;
+			]},
+			...allsets.map(set => ({
+				Header: set, columns: [
+					{ Header: '', accessor: () => '', id: 'spacer->' + set, width: 20 },
+					//{ Header: '*', accessor: row => row.sets[set].total, id: 'total->' + set, width: 30 },
+					...rarities.map(rarity => ({
+						Header: rarity.substr(0, 1).toUpperCase() , accessor: row => row.sets[set] ? row.sets[set][rarity] : '-', width: 30, id: rarity + '->' + set
+					})),
+				],
+			})),
+		]}
+		showPagination={false}
+		minRows="0"
+	/>
 }
