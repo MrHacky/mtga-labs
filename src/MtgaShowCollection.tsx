@@ -24,12 +24,28 @@ function CardsToStats(cards) {
 }
 
 function StatsToData(sets, columns, dbStats, cardStats) {
-	let data = sets.map(set => ({
-		setname: set,
-		...flattenObjects(columns.map(rarity => ({
-			[rarity]: ((cardStats[set]|| {})[rarity] || 0) + '/' + dbStats[set][rarity] * 4,
-		}))),
-	}));
+	let hasCards   = (set, rarity) => ((cardStats[set]|| {})[rarity] || 0);
+	let totalCards = (set, rarity) => dbStats[set][rarity] * 4;
+	let data = [
+		{
+			setname: 'All (Have)',
+			...flattenObjects(columns.map(rarity => ({
+				[rarity]: sets.map(set => hasCards(set, rarity)).reduce((x, y) => x + y),
+			}))),
+		},
+		{
+			setname: 'All (Total)',
+			...flattenObjects(columns.map(rarity => ({
+				[rarity]: sets.map(set => totalCards(set, rarity)).reduce((x, y) => x + y),
+			}))),
+		},
+		...sets.map(set => ({
+			setname: set,
+			...flattenObjects(columns.map(rarity => ({
+				[rarity]: hasCards(set, rarity) + '/' + totalCards(set, rarity),
+			}))),
+		})),
+	];
 
 	return data;
 }
